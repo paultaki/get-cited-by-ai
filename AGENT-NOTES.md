@@ -1,5 +1,24 @@
 # Agent Notes
 
+## 2026-07-16 · claude-code
+
+- **Did:** Promotion-readiness pass on the public README. Added a plain-language
+  lead paragraph above the formal descriptor (the front door assumed the reader
+  already shared the vocabulary — no hook, undefined GEO/AEO, terms of art before
+  any value prop); expanded GEO/AEO on first use. Logged the change in the edit
+  log as presentation-only. Nothing in SKILL.md / RULEBOOK / modules changed.
+- **Why:** Prepping the repo to promote. The rigor is the asset, so the fix was
+  additive (a plain on-ramp above the depth), not a dumbing-down.
+- **Next:** Optional — verify the four published research URLs still resolve before
+  driving traffic at the repo. Score predictions at their score-by dates.
+- **Watch out:** Deliberately did NOT add causal lift metrics (portfolio +272% /
+  +154% / +13%). Framing the repo around "deploy these practices → +N% citations"
+  self-refutes under the skill's own G5 (ramp non-stationarity) and G8 (mechanical
+  accumulation) and would spend the honesty moat that is the whole differentiation.
+  If lift numbers are ever used, they go in as observed-correlational portfolio
+  context with the demand confound stated, never as attributed lift, and never in
+  the hook.
+
 ## 2026-07-15 · claude-code (v1.0.1, later the same day)
 
 - **Did:** Precision release after two decorrelated post-release reviews (external

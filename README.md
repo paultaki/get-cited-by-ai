@@ -1,8 +1,19 @@
 # get-cited-by-ai
 
-A Claude Code skill for AI-citation optimization (GEO/AEO), where every
-recommendation traces to an evidence-tagged rule instead of industry
-folklore.
+**Get cited by AI, or find out you can't.** If you've wondered why ChatGPT,
+Perplexity, and Google's AI answers never mention your site, and whether schema,
+FAQs, or llms.txt would change that, this skill answers from measured data
+instead of guesswork. It runs one honest check first: is anyone actually asking
+AI the questions your site could answer? If nobody is, no amount of on-page work
+will get you cited, and the skill tells you so before you spend a week on it. If
+they are, it sorts your fixes into floors (worth doing, but they won't get you
+cited on their own) and the few levers that actually correlate with citations,
+then gives you a free way to measure whether any of it worked. Built for anyone
+running Claude Code on their own site or a client's.
+
+A Claude Code skill for AI-citation optimization (also called GEO, generative
+engine optimization, or AEO, answer engine optimization), where every
+recommendation traces to an evidence-tagged rule instead of industry folklore.
 
 ## What this is
 
