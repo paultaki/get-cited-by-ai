@@ -30,3 +30,10 @@ against the registered band only; do not loosen it after seeing data.
 4. A rising "share of citations since X shipped" is not itself a scored
    prediction and never substitutes for one — flat rates accumulate
    mechanically (G8).
+5. The band and the refutation condition must partition the outcome space —
+   no result may fire neither ("unscoreable gap") or both. Name the statistic
+   (mean vs single-day, over what window) and set a scoreability floor
+   (minimum n below which the entry stays UNSCORED rather than counting as a
+   miss). Added 2026-07-15 after the first two production audits both
+   registered non-complementary conditions independently — the failing test
+   this rule exists to pass.

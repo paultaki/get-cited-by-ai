@@ -6,7 +6,8 @@ No engagement closes without this block (SKILL.md).
 
 1. Bing Webmaster Tools, verified on canonical host. Pull all three AI Performance
    exports — daily series, page counters, grounding queries — the primary free
-   citation counter (G2).
+   first-party citation counter, read under G3's export mechanics (G2 is why
+   referral traffic is no substitute).
 2. IndexNow, submitted day zero with sitemap/robots. Onset can be days not months
    (D4: 0/10/64-day spread across 4 sites); causal share is INFERENTIAL, fan-out
    reaches Bing/Yandex only.
@@ -37,7 +38,10 @@ No engagement closes without this block (SKILL.md).
 ## 3. Registered predictions
 
 Before shipping any change: dated prediction, numeric band, explicit refutation
-condition — score it at the next pull (G1). Worked example, the book's own ledger:
+condition — score it at the next pull (G1). The refutation must be the band's
+logical complement, with a named statistic and a scoreability floor (template
+rule 5 — added after two production audits independently registered unscoreable
+predictions). Worked example, the book's own ledger:
 
 1. TFL settles 250–500/day post-event → HOLDS, band edge (589/day).
 2. Merit reaches ≥100 cited pages in a day by August → HIT early (127 on 07/13).

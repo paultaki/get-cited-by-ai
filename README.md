@@ -10,7 +10,8 @@ folklore.
 first, split by engine camp, then audit, entity-check, and benchmark a
 vertical — before it emits a single craft recommendation. Every rule it
 cites comes from a measured dataset: 26,767 first-party AI citations across
-six owned sites, a 751-page controlled template experiment, an
+six owned sites, a 751-page same-template controlled regression
+(observational — see RULEBOOK "Honest limits"), an
 820K-citation vertical archive study (mortgage), and a registered-
 predictions ledger with scored outcomes. See `RULEBOOK.md` for the full
 rule set, evidence tags, and receipts.
@@ -34,13 +35,19 @@ measurably wrong on the sites it was tested against.
   split, site audit, entity check, vertical leaderboard, measurement)
 - `RULEBOOK.md` — the evidence base: every rule, its tag, its receipt, its
   scope
-- `modules/` — one procedure per workflow step: `demand-probe.md`,
-  `site-audit.md`, `entity-probe.md`, `vertical-leaderboard.md`,
-  `measurement-harness.md`
+- `modules/` — procedures for five of the six steps (engine split lives in
+  SKILL.md step 2): `demand-probe.md`, `site-audit.md`, `entity-probe.md`,
+  `vertical-leaderboard.md`, `measurement-harness.md`
 - `templates/` — `audit-report.md` and `prediction-ledger.md`, the
   fill-in-the-blank outputs
-- `tests/BASELINE-2026-07-15.md` — the pre-skill failure record this skill
-  was built to correct
+- `predictions/` — the public preregistration ledger: one file per
+  registered prediction, committed before its scoring data exists, so the
+  git timestamp is the receipt
+- `examples/` — a complete worked audit produced by this skill on a real
+  site, including what it refused to recommend
+- `tests/` — `BASELINE-2026-07-15.md`, the pre-skill failure record this
+  skill was built to correct, plus the edit log (every post-release change
+  traces to a documented failing check)
 
 ## Install
 

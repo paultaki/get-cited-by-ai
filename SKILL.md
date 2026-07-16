@@ -9,8 +9,9 @@ description: Use when someone wants their site, brand, or content cited by AI se
 
 Every recommendation this skill produces traces to an evidence-tagged rule in
 RULEBOOK.md — a rulebook derived from 26,767 measured AI citations, a 751-page
-controlled experiment, and a scored-predictions ledger. The core finding, replicated
-across two independent studies:
+same-template controlled regression, and a scored-predictions ledger. The core
+finding, converged on by two independently-run analyses (including an adversarial
+verification pass) of the same portfolio:
 
 **Demand selects citations. Craft is a floor, not a lever.**
 (RULEBOOK A1: demand odds ratio 4.42, p=0.003; word count 1.09, not significant.

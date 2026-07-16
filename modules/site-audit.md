@@ -15,9 +15,10 @@ evidence; it never re-opens the demand question.
    and cited a 100%-client-JS page at #1; non-Bing fetchers not rendering JS
    is behavior-inferred, not documented (D1) — test per engine, no blanket JS
    blocker.
-3. One canonical host, no duplicate-answer URLs: a www/apex split cost one
-   site 31.8% of its ChatGPT mentions and undercounts measurement (E1); two
-   URLs answering the same question split citations into single-citation
+3. One canonical host, no duplicate-answer URLs: a www/apex split left 31.8%
+   of one site's ChatGPT mentions sitting on the alternate host — fragmenting
+   entity identity and undercounting apex-only measurement (E1); two URLs
+   answering the same question split citations into single-citation
    fragments (E2).
 4. Redirects planned for retired URLs: a dissolved page 301'd for two weeks
    still drew citations — engines remember URLs (E3). 301, don't 404.
@@ -29,8 +30,9 @@ evidence; it never re-opens the demand question.
    pages had one, and the most polished portfolio example belonged to a site
    with zero live chat-engine citations (D5).
 7. Day-zero fundamentals on new sites: crawlable pages, sitemap, robots,
-   IndexNow from launch — onset can run days (≤3–4) instead of months (64
-   without IndexNow) (D4).
+   IndexNow from launch — observed onset ran days (≤3–4) with day-zero
+   fundamentals vs 64 without; causal attribution is INFERENTIAL, confounded
+   by site and topic (D4).
 
 ## 2. Levers — the few things with evidence
 

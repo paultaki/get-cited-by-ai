@@ -2,7 +2,7 @@
 
 Rules for earning citations from AI search engines, derived from a measured dataset:
 **26,767 Bing-reported AI citations across 6 owned sites (through 2026-07-13), a
-751-page controlled template experiment, two independently-run studies that converged,
+751-page same-template controlled regression, two independently-run studies that converged,
 four-engine live probes, an 820K-citation vertical archive study, and a registered-
 prediction ledger with scored outcomes.**
 
@@ -15,6 +15,15 @@ folklore: if a rule is untested, it says so.
 independent reviewers before release (see Methods); the sanitization audit passed
 with the author's disclosure decisions applied. Rules are re-scored as the
 underlying dataset grows; see the prediction ledger (G1) for what's still open.**
+
+**v1.0.1 errata — 2026-07-15, same day.** Two decorrelated post-release reviews
+caught precision overstatements in the framing (not the rules): "controlled template
+experiment" → "same-template controlled regression" (the design is observational —
+A1's own tag says so); one module miscited G2 where G3's export mechanics apply; one
+module said a www/apex split "cost" mentions where E1's receipt says they sat
+miscounted on the alternate host; one module dropped D4's INFERENTIAL qualifier on
+IndexNow. No rule, receipt, or number changed. The edit log in `tests/` maps each fix
+to its documented failing check.
 
 ## How to read the tags
 
