@@ -1,5 +1,21 @@
 # Agent Notes
 
+## 2026-07-17 · claude-code (author-voice pass)
+
+- **Did:** Voice pass across the public repo. README rewritten in Paul's register
+  (PaulVoice pack, register 9, voice-lint PASS); 244 em/en dashes recast across
+  RULEBOOK/SKILL/modules/templates/example plus 18 more inside fenced output
+  templates, meaning-preserving only. Verify gate: numeric fingerprint (all numbers
+  extracted and hashed per file) byte-identical before and after on every edited
+  file. Logged in tests/EDITS as presentation-only.
+- **Why:** Repo is authored under Paul's name and promoted from his account; 300+
+  em dashes read as machine-written and violate his published voice contract.
+- **Next:** None for this pass. Prediction score dates unchanged (nearest 08-01).
+- **Watch out:** predictions/ and tests/ history stay dash-y ON PURPOSE (append-only
+  receipts). Future prediction files should be written to the voice contract at
+  registration time. One em dash survives in SKILL.md's rationalization table inside
+  a verbatim quoted baseline claim. Do not "fix" any of these.
+
 ## 2026-07-16 · claude-code (prediction registered, later same day)
 
 - **Did:** Ran the skill's own step-1 demand probe on the skill's own topic

@@ -1,11 +1,11 @@
 # Site Audit Report
 
-Fill every bracket. Every row in every table carries a rule ID — a row with
+Fill every bracket. Every row in every table carries a rule ID: a row with
 no rule ID is an opinion, not a finding, and doesn't ship.
 
 **Site:** [domain]
 **Date:** [YYYY-MM-DD]
-**Prepared per:** geo-evidence workflow (SKILL.md steps 1–6)
+**Prepared per:** geo-evidence workflow (SKILL.md steps 1-6)
 
 ## Demand Verdict
 
@@ -21,11 +21,11 @@ Paste the DEMAND VERDICT block from `modules/demand-probe.md`:
 ```
 
 If demand does not exist or the niche is memory-answerable, stop here and
-say so (F3, A5) — do not proceed to floors or levers.
+say so (F3, A5): do not proceed to floors or levers.
 
 ## Target Camp
 
-[Google camp / open-web camp / Copilot-Bing / mixed] — state which camp(s)
+[Google camp / open-web camp / Copilot-Bing / mixed]: state which camp(s)
 this report targets and why, per step 2 and F1 (TWO-CAMP).
 
 ## Floors
@@ -47,13 +47,13 @@ this report targets and why, per step 2 and F1 (TWO-CAMP).
 | Recommendation | Rule ID + evidence tag | Expected instrument to watch |
 |---|---|---|
 | [e.g., build one aggregate hub for X demand] | A2, PREDICTED-AND-SCORED | Bing Webmaster page counters, target page |
-| [answer-first block, 40–70 words] | B1, OBSERVED-CORRELATIONAL (inferential) | Bing Webmaster daily series |
+| [answer-first block, 40-70 words] | B1, OBSERVED-CORRELATIONAL (inferential) | Bing Webmaster daily series |
 | [structured units, demand-qualified pages only] | B2, OBSERVED-CORRELATIONAL | Bing Webmaster page counters |
 | [day-zero event page] | A3, VALIDATED-INTERVENTION | Bing Webmaster daily series, event window |
 | [densify winner page X] | A8, OBSERVED-CORRELATIONAL | Bing Webmaster grounding-query pool |
 | [one-question page for query Y] | B4, OBSERVED-CORRELATIONAL | Bing Webmaster page counters |
 | [comparison/alternatives page] | B5, OBSERVED-CORRELATIONAL (thin) | Manual probe, re-run ≥3× |
-| [row per recommendation actually made — delete unused rows] | | |
+| [row per recommendation actually made: delete unused rows] | | |
 
 ## Explicitly NOT Recommended
 
@@ -64,8 +64,8 @@ this report targets and why, per step 2 and F1 (TWO-CAMP).
 | llms.txt as an edge with no downside | Untestable constant; most polished example on a zero-citation site | D5 |
 | Blanket "AI crawlers can't read JS" | Bing renders JS; per-engine, not universal | D1 |
 | SSR alone as the fix | Shipped on a zero-citation site, still zero 3.5 weeks later | D2 |
-| Freshness as a measurable factor | No such finding in the dataset | — |
-| "Publish more pages" as default | Headroom sits in existing winners, ~22–26% capture | A8 |
+| Freshness as a measurable factor | No such finding in the dataset | none |
+| "Publish more pages" as default | Headroom sits in existing winners, ~22-26% capture | A8 |
 | [any other rejected recommendation specific to this site] | | |
 
 ## Measurement Plan + Registered Predictions
@@ -75,13 +75,13 @@ Paste the MEASUREMENT PLAN block from `modules/measurement-harness.md`:
 ```
 - Instruments configured: Bing Webmaster (AI Performance exports) / IndexNow / GA4
   (sessionSource confirmed) / [paid: LLM-mention index if used]
-- Baseline window: [start] – [end]; canonical host: [apex/www]
+- Baseline window: [start] to [end]. Canonical host: [apex/www]
 - Registered predictions:
-  1. [claim] — band: [X-Y/unit] — refutation: [condition] — registered [date]
+  1. [claim]. Band: [X-Y/unit]. Refutation: [condition]. Registered [date]
   2. ...
 - Next review date: [date]
 ```
 
 Log every registered prediction in `templates/prediction-ledger.md` and score
-it there at the next pull — a plan with no registered prediction is folklore
+it there at the next pull: a plan with no registered prediction is folklore
 with confidence (G1, SKILL.md).
