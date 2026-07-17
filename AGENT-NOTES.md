@@ -1,5 +1,25 @@
 # Agent Notes
 
+## 2026-07-16 · claude-code (prediction registered, later same day)
+
+- **Did:** Ran the skill's own step-1 demand probe on the skill's own topic
+  (DataForSEO). Result: topic PASSES the gate (ChatGPT grounds + cites on all 3
+  target queries), paultakisaki.com cited in 0/3, and query demand sits under the
+  aliases "AI SEO" (8,100/mo) + "answer engine optimization / AEO" (2,400/mo) while
+  "generative engine optimization" and "get cited by AI" show no reportable volume.
+  Registered a preregistration: `predictions/2026-07-16-paultakisaki-geo-hub-vocab-floor.md`,
+  committed BEFORE the intervention it describes.
+- **Why:** Dogfood + credibility. The prediction registers the NULL on purpose (A1/
+  C1/B3 say on-page vocabulary is a floor, not a lever), so a confirmed 0 is public,
+  timestamped evidence for the thesis on the author's own property.
+- **Next:** Score-by 2026-08-31 via the ChatGPT-scraper battery (≥3 runs, G6); verify
+  page indexation first or VOID. The LEVER test (demand/source-depth) is a separate
+  later prediction.
+- **Watch out:** Do NOT loosen the band after registration. The intervention was a
+  deliberately reasonable floor (meta + one body line, branded title left intact),
+  not a maximal stuffing — a null does not rule out that an aggressive version would
+  differ, and the file says so.
+
 ## 2026-07-16 · claude-code
 
 - **Did:** Promotion-readiness pass on the public README. Added a plain-language
