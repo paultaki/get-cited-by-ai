@@ -2,7 +2,8 @@
 
 **Get cited by AI, or find out you can't.**
 
-I run six sites. Bing has logged 26,767 AI citations across them, and I compared
+I run seven sites. Bing has logged 40,000+ AI citations across them (39,911
+through July 25, 2026, compounding at roughly a thousand a day), and I compared
 the pages that get cited constantly against the hundreds that never get picked
 once. Most of the standard advice did not survive that comparison. My
 highest-citation page carries zero JSON-LD. My uncited pages have MORE schema,

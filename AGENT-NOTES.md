@@ -1,5 +1,17 @@
 # Agent Notes
 
+## 2026-07-27 · claude-code (README current-state line refreshed)
+
+- **Did:** README intro line updated: six sites / 26,767 → seven sites / 40,000+
+  (39,911 through July 25, 2026, dated in-line). Source: 2026-07-27 full export,
+  decorrelated-verified in `~/Documents/Research/AI Citation Update 2026-07-27/`.
+- **Why:** Line was a stale *current-state* claim; the refreshed public playbook
+  now says 40,000+, and the two surfaces must agree.
+- **Next:** Nothing pending here.
+- **Watch out:** The "26,767 first-party AI citations across six owned sites"
+  dataset line further down is FROZEN study-corpus provenance (RULEBOOK evidence
+  tags pin to it) — do not "fix" it to the current total.
+
 ## 2026-07-17 · claude-code (author-voice pass)
 
 - **Did:** Voice pass across the public repo. README rewritten in Paul's register
