@@ -16,6 +16,13 @@ independent reviewers before release (see Methods); the sanitization audit passe
 with the author's disclosure decisions applied. Rules are re-scored as the
 underlying dataset grows; see the prediction ledger (G1) for what's still open.**
 
+**Corpus status, 2026-08-07:** the live portfolio has since passed **50,000
+Bing-reported AI citations** (50,072 through 2026-08-05, seven tracked sites;
+July 2026 alone closed at 31,324, ~3.7× June, then cooled ~21% week-over-week
+off the demand-window peak). Rules remain pinned to the frozen 2026-07-13 study
+corpus above until formally re-scored; the newer data is a growth update, not
+new evidence for any rule.
+
 **v1.0.1 errata: 2026-07-15, same day.** Two decorrelated post-release reviews
 caught precision overstatements in the framing (not the rules): "controlled template
 experiment" → "same-template controlled regression" (the design is observational: A1's own tag says so); one module miscited G2 where G3's export mechanics apply; one

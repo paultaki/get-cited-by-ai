@@ -32,7 +32,9 @@ recommendation before the demand gate. Every rule cites a measured dataset:
 same-template controlled regression (observational, see RULEBOOK "Honest
 limits"), an 820K-citation vertical archive study (mortgage), and a
 registered-predictions ledger with scored outcomes. `RULEBOOK.md` holds the
-full rule set, evidence tags, and receipts.
+full rule set, evidence tags, and receipts. (The rules stay pinned to that
+frozen study corpus; the live counter — 50,000+ and counting, per the line up
+top — is a growth update, not new evidence, until rules are re-scored.)
 
 ## Why it's different
 
