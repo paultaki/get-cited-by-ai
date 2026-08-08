@@ -8,7 +8,11 @@
   `~/Documents/Research/AI Citation Update 2026-08-07/`.
 - **Why:** Stale current-state claim; the public playbook now says 50,000+ and
   the two surfaces must agree.
-- **Next:** Nothing pending here.
+- **Next:** Nothing pending here. (Same-day follow-up: RULEBOOK header got a
+  dated corpus-status note — portfolio passed 50,000 on 2026-08-05 — and README
+  "What this is" got a cross-reference so the frozen 26,767 corpus doesn't read
+  as stale next to the live counter. Rules untouched, provenance still pinned.
+  Installed skill copy at ~/.claude/skills/get-cited-by-ai synced.)
 - **Watch out:** The "26,767 first-party AI citations across six owned sites"
   dataset line is FROZEN study-corpus provenance — never sweep it forward.
 
