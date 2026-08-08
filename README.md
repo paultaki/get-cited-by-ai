@@ -6,7 +6,8 @@ I run seven sites. Bing has logged 50,000+ AI citations across them (50,072
 through August 5, 2026, still adding roughly nine hundred a day), and I compared
 the pages that get cited constantly against the hundreds that never get picked
 once. Most of the standard advice did not survive that comparison. My
-highest-citation page carries zero JSON-LD. My uncited pages have MORE schema,
+highest-citation page earned its first 5,000 citations with zero JSON-LD on
+the page (the markup came later). My uncited pages have MORE schema,
 tables, and FAQs than my cited ones. The most polished llms.txt in the whole
 portfolio belonged to the site with zero live chat-engine citations.
 
