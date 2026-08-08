@@ -33,8 +33,10 @@ same-template controlled regression (observational, see RULEBOOK "Honest
 limits"), an 820K-citation vertical archive study (mortgage), and a
 registered-predictions ledger with scored outcomes. `RULEBOOK.md` holds the
 full rule set, evidence tags, and receipts. (The rules stay pinned to that
-frozen study corpus; the live counter — 50,000+ and counting, per the line up
-top — is a growth update, not new evidence, until rules are re-scored.)
+frozen study corpus; the live counter, 50,000+ per the line up top, is a
+growth update, not new evidence, until rules are re-scored. The daily series,
+weekly rollup, and site/page rollups are published as CSV in `data/`, with a
+claim-to-file map in `data/README.md`.)
 
 ## Why it's different
 
@@ -84,9 +86,10 @@ Four published sources back the rulebook:
 - Two-Camp Engine Model: https://credibilityos.ai/research/two-camp-engine-model/
 - Local-professional entity-probe pilot: https://credibilityos.ai/learn/ai-visibility-for-local-professionals/
 
-Everything else in the rulebook (per-site receipts, the prediction ledger,
-the internal studies) is unpublished. The sites named are real. I own and
-operate them.
+The prediction ledger is public in `predictions/` and the portfolio's daily,
+weekly, site, and page series are public as CSV in `data/`. The per-site
+receipts and regression internals behind the remaining rules are unpublished;
+ask if you need a cut. The sites named are real. I own and operate them.
 
 ## Honest limits
 
