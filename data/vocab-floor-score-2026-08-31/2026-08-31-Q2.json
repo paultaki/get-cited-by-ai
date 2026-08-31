@@ -1,0 +1,148 @@
+{
+  "request": {
+    "user_prompt": "what is generative engine optimization and how do I do it?",
+    "model_name": "gpt-5.5",
+    "web_search": true,
+    "web_search_country_iso_code": "US"
+  },
+  "response": {
+    "version": "0.1.20260831",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "28.0788 sec.",
+    "cost": 0.126275,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "08311604-1059-0612-0000-17ad2563bfab",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "28.0387 sec.",
+        "cost": 0.126275,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "ai_optimization",
+          "chat_gpt",
+          "llm_responses",
+          "live"
+        ],
+        "data": {
+          "api": "ai_optimization",
+          "function": "llm_responses",
+          "se": "chat_gpt",
+          "user_prompt": "what is generative engine optimization and how do I do it?",
+          "model_name": "gpt-5.5",
+          "web_search": true,
+          "web_search_country_iso_code": "US"
+        },
+        "result": [
+          {
+            "model_name": "gpt-5.5-2026-04-23",
+            "input_tokens": 10847,
+            "output_tokens": 2048,
+            "reasoning_tokens": 110,
+            "web_search": true,
+            "money_spent": 0.125675,
+            "datetime": "2026-08-31 16:05:25 +00:00",
+            "items": [
+              {
+                "type": "reasoning",
+                "sections": [
+                  {
+                    "type": "summary_text",
+                    "text": "**Exploring SEO Trends**\n\nI think we can give a general answer, but considering current SEO trends could be beneficial. The user\u2019s question seems to focus on the concept and how it works. I wonder if it would be useful to explore recent developments like \"generative engine optimization,\" especially since it's an emerging niche. So, I should look into current information and do a web search to provide the most relevant insights!"
+                  }
+                ]
+              },
+              {
+                "type": "message",
+                "sections": [
+                  {
+                    "type": "text",
+                    "text": "**Generative Engine Optimization (GEO)** is the practice of making your brand, content, products, or expertise more likely to be **found, understood, cited, and recommended by AI answer engines** like Google AI Overviews/AI Mode, ChatGPT Search, Perplexity, Copilot, and similar systems.\n\nThink of it as **SEO for AI-generated answers**, but with an important caveat: good GEO is mostly **strong SEO + strong authority-building + clear, citable content**, not magic \u201cAI hacks.\u201d Google\u2019s own guidance says foundational SEO remains the base for visibility in generative AI search features, and warns against relying on gimmicks like unnecessary AI-only files or \u201cGEO tricks.\u201d ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n## How GEO differs from traditional SEO\n\nTraditional SEO asks:\n\n> \u201cCan this page rank in search results?\u201d\n\nGEO asks:\n\n> \u201cWhen an AI answers a user\u2019s question, will it use, cite, or recommend my content?\u201d\n\nThat means you\u2019re optimizing for:\n\n- **Retrieval** \u2014 can AI systems crawl and discover your content?\n- **Understanding** \u2014 is your content clear, structured, and unambiguous?\n- **Authority** \u2014 does your site or brand appear trustworthy enough to cite?\n- **Answer usefulness** \u2014 does your page directly answer real user questions?\n- **Citation likelihood** \u2014 does your content contain facts, comparisons, data, definitions, examples, or original insights worth referencing?\n\nThe term was formalized in the \u201cGEO: Generative Engine Optimization\u201d research, which described GEO as improving content visibility in generative engine responses. ([arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=openai))\n\n---\n\n# How to do GEO\n\n## 1. Start with strong technical SEO\n\nAI systems often rely on search indexes, crawlers, and web retrieval. If your site is hard to crawl, slow, poorly structured, or hidden behind scripts, AI engines may not use it.\n\nDo this first:\n\n- Make sure important pages are **indexable**.\n- Avoid accidentally blocking crawlers in `robots.txt`.\n- Use clean URL structures.\n- Improve page speed and mobile usability.\n- Add XML sitemaps.\n- Use canonical tags correctly.\n- Fix broken links and redirect chains.\n- Make sure your content is accessible in plain HTML, not only buried inside JavaScript.\n\nFor ChatGPT Search specifically, OpenAI has separate crawler/user-agent behavior, so site owners should verify that relevant AI/search crawlers are not blocked if they want their content surfaced in AI answers. ([assets.ctfassets.net](https://assets.ctfassets.net/wowgx05xsdrr/2JYiTa5qNndWTFFca27bGf/568733b1608fc43933e1c1fb8674ee24/BigCommerce-en-AU-chatgpt-product-discovery.pdf?utm_source=openai))\n\n---\n\n## 2. Write pages that answer complete questions\n\nAI search works well with **natural-language questions**, not just short keywords.\n\nInstead of only targeting:\n\n> \u201cCRM software\u201d\n\nAlso create content for:\n\n> \u201cWhat is the best CRM software for a 10-person B2B sales team?\u201d  \n> \u201cHow much should a small business pay for CRM software?\u201d  \n> \u201cHubSpot vs Salesforce for startups: which is better?\u201d  \n> \u201cWhat CRM features matter most for outbound sales?\u201d\n\nGood GEO content usually has:\n\n- A direct answer near the top.\n- Clear subheadings.\n- Concise explanations.\n- Pros and cons.\n- Comparisons.\n- Specific examples.\n- FAQs.\n- Original data or expert commentary.\n- Clear author or company expertise.\n\nAI systems are more likely to use content that is easy to extract, summarize, and trust.\n\n---\n\n## 3. Build \u201centity authority\u201d around your brand\n\nGenerative engines don\u2019t only evaluate a single page. They often infer whether a **brand, person, company, product, or website** is a trustworthy entity.\n\nYou want the web to clearly understand:\n\n- Who you are.\n- What you do.\n- Who you serve.\n- What topics you are expert in.\n- Why you are credible.\n- Where else you are mentioned.\n\nPractical steps:\n\n- Create a strong About page.\n- Add author bios with credentials.\n- Keep your company name, address, product names, and descriptions consistent across the web.\n- Earn mentions from reputable publications, podcasts, industry blogs, directories, and review sites.\n- Build topical clusters around your core expertise.\n- Use organization, product, article, FAQ, and review schema where appropriate.\n- Maintain accurate profiles on LinkedIn, Crunchbase, Google Business Profile, G2, Capterra, Yelp, industry directories, or relevant marketplaces.\n\nAI engines often synthesize from multiple sources. If your brand is consistently described across authoritative sources, it becomes easier for those systems to associate you with a topic.\n\n---\n\n## 4. Create citable content, not generic content\n\nGeneric blog posts are easy for AI to ignore. Citable content gives AI something specific to reference.\n\nExamples of citable assets:\n\n- Original research.\n- Benchmarks.\n- Surveys.\n- Pricing studies.\n- Statistics.\n- Expert quotes.\n- Case studies.\n- Step-by-step frameworks.\n- Product comparisons.\n- Industry glossaries.\n- \u201cBest for X\u201d recommendation pages.\n- Data-backed opinion pieces.\n\nWeak GEO content says:\n\n> \u201cEmail marketing is important for businesses.\u201d\n\nStrong GEO content says:\n\n> \u201cBased on our analysis of 2,000 campaigns, B2B SaaS onboarding emails performed best when sent within 15 minutes of signup and followed by a second email within 24 hours.\u201d\n\nThe second version is much more likely to be cited because it contains a concrete, attributable claim.\n\n---\n\n## 5. Structure content for extraction\n\nAI systems need to parse your page easily.\n\nUse:\n\n- Descriptive H1/H2/H3 headings.\n- Short paragraphs.\n- Bulleted lists.\n- Tables for comparisons.\n- Definitions.\n- Summaries.\n- FAQs.\n- Clear labels like \u201cPros,\u201d \u201cCons,\u201d \u201cPricing,\u201d \u201cBest for,\u201d and \u201cAlternatives.\u201d\n- Schema markup where relevant.\n\nFor example, if you sell accounting software, create comparison tables like:\n\n| Use case | Recommended feature | Why it matters |\n|---|---|---|\n| Freelancers | Invoice automation | Reduces manual billing |\n| Agencies | Project-level profitability | Tracks margin by client |\n| Ecommerce | Inventory integrations | Syncs orders and stock |\n\nThis helps both humans and machines understand your positioning.\n\n---\n\n## 6. Optimize for \u201cconversational queries\u201d\n\nPeople ask AI tools more specific questions than they type into Google.\n\nInstead of optimizing only for broad search terms, map your content to prompts like:\n\n- \u201cWhat\u2019s the best ___ for ___?\u201d\n- \u201cHow do I choose between ___ and ___?\u201d\n- \u201cWhat are the risks of ___?\u201d\n- \u201cHow much does ___ cost?\u201d\n- \u201cWhat are alternatives to ___?\u201d\n- \u201cIs ___ worth it for small businesses?\u201d\n- \u201cWhat should I know before buying ___?\u201d\n- \u201cWhat\u2019s the difference between ___ and ___?\u201d\n- \u201cGive me a checklist for ___.\u201d\n\nThen create pages that directly satisfy those prompts.\n\n---\n\n## 7. Get mentioned on sources AI engines already trust\n\nMany AI answer engines cite or synthesize from high-authority pages. Your own website matters, but third-party validation matters too.\n\nAim to appear in:\n\n- Industry publications.\n- Comparison articles.\n- Review platforms.\n- Analyst reports.\n- High-quality directories.\n- Niche communities.\n- Trusted newsletters.\n- Podcasts and interviews.\n- Partner pages.\n- \u201cBest tools for\u2026\u201d lists.\n- Wikipedia/Wikidata where genuinely appropriate.\n\nFor local businesses, this can include:\n\n- Google Business Profile.\n- Yelp.\n- TripAdvisor.\n- BBB.\n- Local news.\n- Chamber of commerce pages.\n- Local directories.\n- Niche review sites.\n\nFor SaaS, it may include:\n\n- G2.\n- Capterra.\n- Product Hunt.\n- GitHub.\n- Stack Overflow.\n- Reddit discussions.\n- Integration marketplaces.\n- Software review blogs.\n\nThe point is not spammy link-building. It\u2019s building a corroborated web presence.\n\n---\n\n## 8. Use schema markup, but don\u2019t expect it to be magic\n\nSchema helps search engines understand your content, but it does not guarantee AI citations.\n\nUseful schema types include:\n\n- `Organization`\n- `Person`\n- `Article`\n- `Product`\n- `Review`\n- `FAQPage`\n- `HowTo`\n- `LocalBusiness`\n- `SoftwareApplication`\n- `BreadcrumbList`\n\nGoogle\u2019s guidance says structured data remains useful as part of SEO, especially for eligibility in search features, but you do not need special \u201cAI markup\u201d just to appear in generative AI search. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n---\n\n## 9. Publish content with clear expertise and attribution\n\nAI engines are more likely to trust content that shows who wrote it and why they\u2019re qualified.\n\nAdd:\n\n- Author names.\n- Credentials.\n- Reviewers, if relevant.\n- Publication dates.\n- Updated dates.\n- Sources.\n- Methodology sections.\n- Company background.\n- Real-world experience.\n- Contact information.\n\nThis is especially important for topics involving health, finance, law, security, or purchasing decisions.\n\n---\n\n## 10. Monitor your AI visibility\n\nGEO measurement is still less mature than SEO measurement, but you can track patterns.\n\nTry this:\n\n1. Make a list of 25\u2013100 prompts your buyers might ask.\n2. Test them in ChatGPT, Perplexity, Google AI Mode/AI Overviews, Gemini, and Copilot.\n3. Record",
+                    "annotations": [
+                      {
+                        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai",
+                        "start_index": 674,
+                        "end_index": 812,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))"
+                      },
+                      {
+                        "title": "GEO: Generative Engine Optimization",
+                        "url": "https://arxiv.org/abs/2311.09735?utm_source=openai",
+                        "start_index": 1656,
+                        "end_index": 1721,
+                        "text": "([arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=openai))"
+                      },
+                      {
+                        "title": "The Future of Search Is Conversational: Why",
+                        "url": "https://assets.ctfassets.net/wowgx05xsdrr/2JYiTa5qNndWTFFca27bGf/568733b1608fc43933e1c1fb8674ee24/BigCommerce-en-AU-chatgpt-product-discovery.pdf?utm_source=openai",
+                        "start_index": 2547,
+                        "end_index": 2736,
+                        "text": "([assets.ctfassets.net](https://assets.ctfassets.net/wowgx05xsdrr/2JYiTa5qNndWTFFca27bGf/568733b1608fc43933e1c1fb8674ee24/BigCommerce-en-AU-chatgpt-product-discovery.pdf?utm_source=openai))"
+                      },
+                      {
+                        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai",
+                        "start_index": 8292,
+                        "end_index": 8430,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "fan_out_queries": [
+              "Generative engine optimization definition GEO research paper 2024",
+              "Google AI Overviews guidance SEO generative AI search official",
+              "OpenAI ChatGPT search website owners robots OAI-SearchBot"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "parsed": {
+    "ok": true,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "cost": 0.126275,
+    "model": "gpt-5.5-2026-04-23",
+    "tag": "Q2",
+    "prompt": "what is generative engine optimization and how do I do it?",
+    "run_at": "2026-08-31T09:05:25-07:00",
+    "day": "2026-08-31",
+    "cited_paultakisaki": false,
+    "text_mentions_paultakisaki": false,
+    "domains": [
+      "developers.google.com",
+      "arxiv.org",
+      "assets.ctfassets.net"
+    ],
+    "annotations": [
+      {
+        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+      },
+      {
+        "title": "GEO: Generative Engine Optimization",
+        "url": "https://arxiv.org/abs/2311.09735?utm_source=openai"
+      },
+      {
+        "title": "The Future of Search Is Conversational: Why",
+        "url": "https://assets.ctfassets.net/wowgx05xsdrr/2JYiTa5qNndWTFFca27bGf/568733b1608fc43933e1c1fb8674ee24/BigCommerce-en-AU-chatgpt-product-discovery.pdf?utm_source=openai"
+      },
+      {
+        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+      }
+    ],
+    "answer_excerpt": "**Generative Engine Optimization (GEO)** is the practice of making your brand, content, products, or expertise more likely to be **found, understood, cited, and recommended by AI answer engines** like Google AI Overviews/AI Mode, ChatGPT Search, Perplexity, Copilot, and similar systems.\n\nThink of it as **SEO for AI-generated answers**, but with an important caveat: good GEO is mostly **strong SEO + strong authority-building + clear, citable content**, not magic \u201cAI hacks.\u201d Google\u2019s own guidance says foundational SEO remains the base for visibility in generative AI search features, and warns against relying on gimmicks like unnecessary AI-only files or \u201cGEO tricks.\u201d ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n## How GEO differs from traditional SEO\n\nTraditional SEO asks:\n\n> \u201cCan this page rank in search results?\u201d\n\nGEO asks:\n\n> \u201cWhen an AI answers a user\u2019s question, will it use, cite, or recommend my content?\u201d\n\nThat means you\u2019re optimizing for:\n\n- **Retrieval** \u2014 can AI systems crawl and discover your content?\n- **Understanding** \u2014 is your content clear, structured, and unambiguous?\n- **Authority** \u2014 does your site or brand appear trustworthy enough to cite?\n- **Answer usefulness** \u2014 does your page directly answer real user questions?\n- **Citation likelihood** \u2014 does your content contain facts, comparisons, data, definitions, examples, or original insights worth referencing?\n\nThe ter",
+    "answer_chars": 9199,
+    "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-08-31-Q2.json"
+  }
+}

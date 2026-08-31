@@ -1,0 +1,117 @@
+{
+  "day": "2026-08-31",
+  "run_batch_started": "2026-08-31T09:04:19-07:00",
+  "instrument": "DataForSEO chat_gpt/llm_responses/live",
+  "location": "US web_search",
+  "model": "gpt-5.5",
+  "scored_cells": [
+    {
+      "ok": true,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.115785,
+      "model": "gpt-5.5-2026-04-23",
+      "tag": "Q1",
+      "prompt": "how do I get my website cited by AI search engines?",
+      "run_at": "2026-08-31T09:04:55-07:00",
+      "day": "2026-08-31",
+      "cited_paultakisaki": false,
+      "text_mentions_paultakisaki": false,
+      "domains": [
+        "developers.google.com",
+        "help.openai.com",
+        "bing.com"
+      ],
+      "answer_excerpt": "To get cited by AI search engines\u2014Google AI Overviews / AI Mode, ChatGPT Search, Perplexity-style answer engines, Bing Copilot, etc.\u2014you need to optimize for **retrieval, trust, extractability, and topical authority**. Think of it as SEO plus \u201cmake my content easy for an AI answer system to quote as a source.\u201d\n\n## 1. Make sure AI/search crawlers can access your site\n\nFirst, don\u2019t accidentally block the systems that need to read your pages.\n\n- **Google AI features:** Your page generally needs to be indexed by Google and eligible to show a search snippet to be eligible as a supporting link in AI Overviews / AI Mode. Google says normal Search technical requirements and SEO best practices still apply. ([developers.google.com](https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai))\n- **ChatGPT Search:** OpenAI says sites should not block **OAI-SearchBot** if they want content included in ChatGPT search summaries/snippets. ([help.openai.com](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai))\n- **Bing / Copilot:** Microsoft says SEO best practices that support crawling, indexing, content clarity, and authority also support eligibility for AI-generated experiences and citations. ([bing.com](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a?afsrc=1&utm_source=openai))\n\nCheck your `robots.txt`, CDN, firewall, bot protection, JavaScript challenges, and paywalls. A good starting point:\n\n```txt\nUser-",
+      "answer_chars": 8919,
+      "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-08-31-Q1.json"
+    },
+    {
+      "ok": true,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.126275,
+      "model": "gpt-5.5-2026-04-23",
+      "tag": "Q2",
+      "prompt": "what is generative engine optimization and how do I do it?",
+      "run_at": "2026-08-31T09:05:25-07:00",
+      "day": "2026-08-31",
+      "cited_paultakisaki": false,
+      "text_mentions_paultakisaki": false,
+      "domains": [
+        "developers.google.com",
+        "arxiv.org",
+        "assets.ctfassets.net"
+      ],
+      "answer_excerpt": "**Generative Engine Optimization (GEO)** is the practice of making your brand, content, products, or expertise more likely to be **found, understood, cited, and recommended by AI answer engines** like Google AI Overviews/AI Mode, ChatGPT Search, Perplexity, Copilot, and similar systems.\n\nThink of it as **SEO for AI-generated answers**, but with an important caveat: good GEO is mostly **strong SEO + strong authority-building + clear, citable content**, not magic \u201cAI hacks.\u201d Google\u2019s own guidance says foundational SEO remains the base for visibility in generative AI search features, and warns against relying on gimmicks like unnecessary AI-only files or \u201cGEO tricks.\u201d ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n## How GEO differs from traditional SEO\n\nTraditional SEO asks:\n\n> \u201cCan this page rank in search results?\u201d\n\nGEO asks:\n\n> \u201cWhen an AI answers a user\u2019s question, will it use, cite, or recommend my content?\u201d\n\nThat means you\u2019re optimizing for:\n\n- **Retrieval** \u2014 can AI systems crawl and discover your content?\n- **Understanding** \u2014 is your content clear, structured, and unambiguous?\n- **Authority** \u2014 does your site or brand appear trustworthy enough to cite?\n- **Answer usefulness** \u2014 does your page directly answer real user questions?\n- **Citation likelihood** \u2014 does your content contain facts, comparisons, data, definitions, examples, or original insights worth referencing?\n\nThe ter",
+      "answer_chars": 9199,
+      "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-08-31-Q2.json"
+    },
+    {
+      "ok": true,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.07892,
+      "model": "gpt-5.5-2026-04-23",
+      "tag": "Q3",
+      "prompt": "does adding schema markup help my site get cited by AI?",
+      "run_at": "2026-08-31T09:05:40-07:00",
+      "day": "2026-08-31",
+      "cited_paultakisaki": false,
+      "text_mentions_paultakisaki": false,
+      "domains": [
+        "developers.google.com",
+        "bing.com"
+      ],
+      "answer_excerpt": "**Short answer: yes, but indirectly \u2014 and it won\u2019t guarantee AI citations.**\n\nSchema markup helps search engines and AI-assisted search systems **understand your pages more clearly**, but current official guidance says there is **no special schema markup required** to appear in Google AI Overviews or AI Mode. Google specifically says you don\u2019t need new machine-readable files or special schema.org structured data for AI features. ([developers.google.com](https://developers.google.com/search/docs/appearance/ai-features?kgs=aa0bcc3d152ed142&utm_source=openai))\n\nWhat schema **can** help with:\n\n- **Clarifying entities**: your business, author, products, services, FAQs, reviews, locations, etc.\n- **Eligibility for rich results** in traditional search, where supported.\n- **Reducing ambiguity** for crawlers.\n- **Supporting trust signals** when paired with visible, high-quality content.\n- **Making your content easier to classify**, especially for products, local businesses, organizations, articles, recipes, events, and FAQs.\n\nWhat schema **does not** do:\n\n- It does **not** guarantee that ChatGPT, Perplexity, Gemini, Copilot, or Google AI Overviews will cite you.\n- It is usually **not a direct citation trigger**.\n- It will not compensate for thin content, weak authority, poor crawlability, or lack of topical relevance.\n\nFor Google specifically, the safer interpretation is: **focus first on normal SEO fundamentals** \u2014 crawlable pages, useful content, clear authorship, good page experien",
+      "answer_chars": 3544,
+      "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-08-31-Q3.json"
+    }
+  ],
+  "supplementary_cells": [
+    {
+      "ok": true,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.115725,
+      "model": "gpt-5.5-2026-04-23",
+      "tag": "S1",
+      "prompt": "what is answer engine optimization and how do I do it?",
+      "run_at": "2026-08-31T09:06:06-07:00",
+      "day": "2026-08-31",
+      "cited_paultakisaki": false,
+      "text_mentions_paultakisaki": false,
+      "domains": [
+        "developers.google.com",
+        "bing.com",
+        "help.openai.com"
+      ],
+      "answer_excerpt": "## What is Answer Engine Optimization?\n\n**Answer Engine Optimization (AEO)** is the practice of making your content easy for search engines and AI systems to **understand, extract, summarize, and cite as an answer**.\n\nTraditional SEO asks: **\u201cHow do I rank in search results?\u201d**  \nAEO asks: **\u201cHow do I become the answer?\u201d**\n\nIt applies to places like:\n\n- Google AI Overviews and AI Mode\n- Bing/Copilot answers\n- ChatGPT Search\n- Perplexity\n- Featured snippets\n- Voice assistants\n- \u201cPeople Also Ask\u201d results\n- Knowledge panels and local packs\n\nGoogle\u2019s own guidance says that classic SEO fundamentals still matter for AI search, and that there is no special \u201cAI schema\u201d or magic markup required. The foundation is still useful, original, crawlable, well-structured content that satisfies user intent. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n---\n\n# How to do Answer Engine Optimization\n\n## 1. Identify the questions your audience asks\n\nStart by building a list of **question-based queries** around your products, services, or expertise.\n\nLook for questions like:\n\n- What is ___?\n- How does ___ work?\n- How much does ___ cost?\n- Best ___ for ___?\n- ___ vs ___?\n- Is ___ worth it?\n- How do I fix ___?\n- What are the requirements for ___?\n- Can I ___?\n- Should I ___?\n\nUseful sources:\n\n- Google Search Console queries\n- People Also Ask\n- Reddit and forums\n- Sales calls\n- Customer support tickets\n- Inter",
+      "answer_chars": 8830,
+      "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-08-31-S1.json"
+    },
+    {
+      "ok": true,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.11574,
+      "model": "gpt-5.5-2026-04-23",
+      "tag": "S2",
+      "prompt": "how do I do AI SEO for my website?",
+      "run_at": "2026-08-31T09:06:33-07:00",
+      "day": "2026-08-31",
+      "cited_paultakisaki": false,
+      "text_mentions_paultakisaki": false,
+      "domains": [
+        "developers.google.com",
+        "bing.com"
+      ],
+      "answer_excerpt": "\u201cAI SEO\u201d usually means optimizing your website to be found, understood, cited, and trusted by **AI-powered search experiences** like Google AI Overviews / AI Mode, Bing Copilot, Perplexity, ChatGPT Search-style tools, and traditional search engines.\n\nThe short version: **don\u2019t chase \u201cAI SEO hacks.\u201d Build clear, useful, well-structured, authoritative content that answers real questions better than competitors.** Google\u2019s own guidance says traditional SEO fundamentals still matter for generative AI search, and it specifically warns against gimmicks like unnecessary \u201cAI files\u201d or artificial formatting tricks. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n## 1. Start with normal SEO foundations\n\nAI search still depends heavily on crawlable, indexable, high-quality web content.\n\nMake sure your site has:\n\n- **Clean indexation:** important pages are crawlable and not blocked by `robots.txt` or `noindex`.\n- **XML sitemap:** submitted in Google Search Console and Bing Webmaster Tools.\n- **Fast, mobile-friendly pages.**\n- **Clear site architecture:** important pages reachable within a few clicks.\n- **Descriptive title tags and meta descriptions.**\n- **Canonical tags** where needed.\n- **No thin, duplicate, or doorway pages.**\n\nBing\u2019s webmaster guidance says SEO best practices that support discovery, indexing accuracy, and content clarity also support eligibility for AI-generated experiences and",
+      "answer_chars": 9322,
+      "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-08-31-S2.json"
+    }
+  ],
+  "scored_cited_count": 0,
+  "scored_ok_count": 3,
+  "smoke_ok": true
+}

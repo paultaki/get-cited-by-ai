@@ -1,5 +1,22 @@
 # Agent Notes
 
+## 2026-08-31 · beast (GEO vocab-floor score day 1/3)
+
+- **Did:** Opened the score-by battery for
+  `predictions/2026-07-16-paultakisaki-geo-hub-vocab-floor.md`. Scoreability
+  floor PASS (live AEO/AI SEO string present; DataForSEO ChatGPT scraper OK).
+  Day-1 scored cells **0/3** cite paultakisaki.com (Q1–Q3); supplementary S1/S2
+  also 0. Raw under `data/vocab-floor-score-2026-08-31/`. Outcome left
+  **UNSCORED** pending ≥2 more separate days (G6). Follow-up crons:
+  geo-vocab-floor-score-day2 (2026-09-01 09:05 PT), day3 (2026-09-02 09:05 PT).
+  Runner: `~/.hermes/scripts/geo-vocab-floor-score-day.py`.
+- **Why:** Score-by date is today; single-day runs are weather. Null
+  preregistration must not be closed on one sample.
+- **Next:** Day 2 + day 3 auto-runs finalize to HOLDS/REFUTED at ≥9 cells, then
+  pending_ack Telegram confirm (`ack geo score`).
+- **Watch out:** Do not loosen the band. Do not set final Outcome on <9 cells.
+  Bing AI Perf does not list the hub page among cited pages — secondary only.
+
 ## 2026-08-07 · claude-code (README current-state line refreshed to 50,000+)
 
 - **Did:** README intro line updated: 40,000+ (39,911 through July 25) →

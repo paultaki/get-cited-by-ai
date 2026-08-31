@@ -47,3 +47,25 @@
   intervention adds genuine demand or original source-depth (not vocabulary), a new
   prediction will test whether THAT moves citations. Isolating the floor first is the
   whole point — one discrete change, one scoreable bet (G8).
+
+- **Score progress 2026-08-31 (day 1/3, Outcome still UNSCORED):** Scoreability floor PASS —
+  (a) live copy contains `answer engine optimization (AEO) or AI SEO` on
+  https://www.paultakisaki.com/learn/how-to-get-cited-by-ai/ (verified curl);
+  (b) Bing crawl: no direct last-crawl API; ~6 weeks post-edit, page last-modified
+  2026-08-26, sitemap lists hub, Bing site-search returned the live AEO/AI SEO
+  phrase — proceed under ample-time assumption; (c) DataForSEO ChatGPT scraper
+  OK (llm_responses/live, US web_search, model gpt-5.5). Day-1 scored cells
+  **0/3 cited** paultakisaki.com:
+  - Q1 how do I get my website cited by AI search engines? → N
+    [developers.google.com, help.openai.com, bing.com]
+  - Q2 what is generative engine optimization and how do I do it? → N
+    [developers.google.com, arxiv.org, assets.ctfassets.net]
+  - Q3 does adding schema markup help my site get cited by AI? → N
+    [developers.google.com, bing.com]
+  Supplementary (not scored): S1 AEO → N; S2 AI SEO → N. Raw JSON:
+  `data/vocab-floor-score-2026-08-31/`. G6 requires ≥3 separate days (≥9 cells)
+  before Outcome. Days 2–3 scheduled 2026-09-01 and 2026-09-02 09:05 PT.
+  Band untouched. Bing AI Performance secondary: domain verified; hub path not
+  in pages export (only /insights/invisible-resume.html); ai_search_queries
+  "No data available".
+

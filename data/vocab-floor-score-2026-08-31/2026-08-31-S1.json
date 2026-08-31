@@ -1,0 +1,148 @@
+{
+  "request": {
+    "user_prompt": "what is answer engine optimization and how do I do it?",
+    "model_name": "gpt-5.5",
+    "web_search": true,
+    "web_search_country_iso_code": "US"
+  },
+  "response": {
+    "version": "0.1.20260831",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "23.9807 sec.",
+    "cost": 0.115725,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "08311605-1059-0612-0000-3469ef2eb12d",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "23.8721 sec.",
+        "cost": 0.115725,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "ai_optimization",
+          "chat_gpt",
+          "llm_responses",
+          "live"
+        ],
+        "data": {
+          "api": "ai_optimization",
+          "function": "llm_responses",
+          "se": "chat_gpt",
+          "user_prompt": "what is answer engine optimization and how do I do it?",
+          "model_name": "gpt-5.5",
+          "web_search": true,
+          "web_search_country_iso_code": "US"
+        },
+        "result": [
+          {
+            "model_name": "gpt-5.5-2026-04-23",
+            "input_tokens": 8737,
+            "output_tokens": 2048,
+            "reasoning_tokens": 99,
+            "web_search": true,
+            "money_spent": 0.115125,
+            "datetime": "2026-08-31 16:06:06 +00:00",
+            "items": [
+              {
+                "type": "reasoning",
+                "sections": [
+                  {
+                    "type": "summary_text",
+                    "text": "**Considering web recommendations**\n\nI need to answer about AEO and how it\u2019s evolving. It seems I should use the web for current recommendations or SEO practices. So, I'll dive into online resources to get the latest information. Using the web would allow me to provide the user with valuable insights that's up-to-date. It\u2019s important I don't miss anything crucial, so this approach will help me gather relevant data effectively. Let's make sure I cover everything!"
+                  }
+                ]
+              },
+              {
+                "type": "message",
+                "sections": [
+                  {
+                    "type": "text",
+                    "text": "## What is Answer Engine Optimization?\n\n**Answer Engine Optimization (AEO)** is the practice of making your content easy for search engines and AI systems to **understand, extract, summarize, and cite as an answer**.\n\nTraditional SEO asks: **\u201cHow do I rank in search results?\u201d**  \nAEO asks: **\u201cHow do I become the answer?\u201d**\n\nIt applies to places like:\n\n- Google AI Overviews and AI Mode\n- Bing/Copilot answers\n- ChatGPT Search\n- Perplexity\n- Featured snippets\n- Voice assistants\n- \u201cPeople Also Ask\u201d results\n- Knowledge panels and local packs\n\nGoogle\u2019s own guidance says that classic SEO fundamentals still matter for AI search, and that there is no special \u201cAI schema\u201d or magic markup required. The foundation is still useful, original, crawlable, well-structured content that satisfies user intent. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n---\n\n# How to do Answer Engine Optimization\n\n## 1. Identify the questions your audience asks\n\nStart by building a list of **question-based queries** around your products, services, or expertise.\n\nLook for questions like:\n\n- What is ___?\n- How does ___ work?\n- How much does ___ cost?\n- Best ___ for ___?\n- ___ vs ___?\n- Is ___ worth it?\n- How do I fix ___?\n- What are the requirements for ___?\n- Can I ___?\n- Should I ___?\n\nUseful sources:\n\n- Google Search Console queries\n- People Also Ask\n- Reddit and forums\n- Sales calls\n- Customer support tickets\n- Internal site search\n- Chat logs\n- Competitor FAQs\n- Bing Webmaster Tools, which now includes AI performance and citation-related reporting for AI-generated answers. ([bing.com](https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c?utm_source=openai))\n\n**Goal:** Build content around real questions, not just broad keywords.\n\n---\n\n## 2. Give the answer immediately\n\nAEO content should be **answer-first**.\n\nBad structure:\n\n> Long intro, background, brand story, then answer after 900 words.\n\nBetter structure:\n\n> Direct answer in the first 40\u201380 words, then details, examples, caveats, and next steps.\n\nExample:\n\n**Question:** What is answer engine optimization?\n\n**Strong answer:**\n\n> Answer engine optimization is the process of structuring website content so search engines, AI assistants, and answer platforms can quickly understand it, extract the key information, and cite it in direct answers.\n\nThen expand with:\n\n- Why it matters\n- How it differs from SEO\n- Examples\n- Steps\n- FAQs\n- Related questions\n\nAI systems often synthesize information from multiple sources, so clarity and extractability matter.\n\n---\n\n## 3. Structure pages around specific search intent\n\nEach page should have a clear job.\n\nCommon AEO page types:\n\n| Page type | Best for |\n|---|---|\n| FAQ page | Short, direct question-answer content |\n| How-to guide | Step-by-step processes |\n| Comparison page | \u201cX vs Y\u201d searches |\n| Definition page | \u201cWhat is ___?\u201d searches |\n| Best-of page | Recommendation queries |\n| Pricing page | Cost-related answers |\n| Troubleshooting page | Problem-solution searches |\n| Glossary page | Short educational answers |\n| Local service page | \u201cNear me\u201d and location-specific queries |\n| Product page | Product specifications, use cases, reviews |\n\nDo not cram every question into one giant page. Build focused pages that answer one main topic deeply.\n\n---\n\n## 4. Use clear headings and natural-language questions\n\nUse headings that match how people ask questions.\n\nInstead of:\n\n> Platform Capabilities\n\nUse:\n\n> What does this software do?\n\nInstead of:\n\n> Implementation Considerations\n\nUse:\n\n> How long does implementation take?\n\nInstead of:\n\n> Financial Details\n\nUse:\n\n> How much does it cost?\n\nRecommended structure:\n\n```text\nH1: What Is Answer Engine Optimization?\n\nH2: What does answer engine optimization mean?\nH2: How is AEO different from SEO?\nH2: Why does AEO matter?\nH2: How do you optimize for answer engines?\nH3: 1. Answer the question directly\nH3: 2. Use structured headings\nH3: 3. Add schema markup\nH3: 4. Build topical authority\nH2: FAQs\n```\n\nThis makes your page easier for both humans and machines to parse.\n\n---\n\n## 5. Write concise answer blocks\n\nFor important questions, include a short \u201canswer block\u201d near the top of the relevant section.\n\nExample:\n\n```text\nWhat is AEO?\n\nAnswer engine optimization is the process of formatting and improving your content so AI search tools, voice assistants, and search engines can use it to answer user questions directly.\n```\n\nGood answer blocks are:\n\n- Clear\n- Short\n- Factually precise\n- Free of fluff\n- Written in plain language\n- Supported by details below\n\nA useful pattern:\n\n```text\n[Direct answer]\n\n[Why it matters]\n\n[Example]\n\n[Steps or details]\n\n[Common mistakes]\n```\n\n---\n\n## 6. Make your content easy to cite\n\nAI answer engines tend to prefer content that is specific, factual, and attributable.\n\nAdd:\n\n- Author names\n- Author bios\n- Credentials\n- Publish dates\n- Updated dates\n- Sources\n- Original data\n- Expert commentary\n- Statistics\n- Examples\n- Case studies\n- Definitions\n- Tables\n- Comparisons\n- Step-by-step instructions\n\nIf your content makes claims, support them.\n\nFor example, instead of saying:\n\n> Our software improves productivity.\n\nSay:\n\n> In a 2026 internal study of 214 customer accounts, teams using our workflow automation feature reduced average approval time from 4.8 days to 2.1 days.\n\nThe second version is much more useful to answer engines because it is specific.\n\n---\n\n## 7. Add structured data where appropriate\n\nStructured data does not guarantee inclusion in AI answers, and Google specifically says there is no special schema markup required for generative AI search. However, structured data can still help search engines understand page content, as long as the markup matches visible page content. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\nUseful schema types include:\n\n- `Article`\n- `BlogPosting`\n- `FAQPage`\n- `HowTo`\n- `Product`\n- `Review`\n- `Organization`\n- `LocalBusiness`\n- `Person`\n- `BreadcrumbList`\n- `VideoObject`\n- `SoftwareApplication`\n- `Event`\n\nExample FAQ schema:\n\n```json\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What is answer engine optimization?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Answer engine optimization is the process of structuring content so search engines and AI tools can understand, summarize, and cite it in direct answers.\"\n      }\n    }\n  ]\n}\n```\n\nImportant: Do not mark up content that is not visible on the page.\n\n---\n\n## 8. Build topical authority\n\nAnswer engines are less likely to trust a one-off page from a site with no broader expertise.\n\nTo build topical authority, create a cluster of related content.\n\nExample for a financial advisor:\n\n```text\nMain page:\n- Retirement Planning Guide\n\nSupporting pages:\n- What is a Roth IRA?\n- Roth IRA vs Traditional IRA\n- How much should I save for retirement?\n- Best retirement accounts for self-employed people\n- Required minimum distribution rules\n- 401(k) rollover guide\n- Retirement planning checklist\n- Tax-efficient withdrawal strategies\n```\n\nThen internally link them together.\n\nThis helps search systems understand that your site has depth on the topic.\n\n---\n\n## 9. Optimize for entity recognition\n\nAnswer engines think in terms of **entities**: people, companies, products, places, concepts, credentials, and relationships.\n\nMake your entity information clear.\n\nFor a business, include:\n\n- Official company name\n- Brand names\n- Product names\n- Founder or leadership names\n- Address, if local\n- Service areas\n- Phone number\n- Business category\n- Certifications\n- Awards\n- Social profiles\n- Crunchbase/Wikidata/LinkedIn/Google Business Profile consistency where applicable\n\nFor a person, include:\n\n- Full name\n- Job title\n- Credentials\n- Bio\n- Areas of expertise\n- Publications\n- Media mentions\n- Social profiles\n\nConsistency matters. Your site, Google Business Profile, LinkedIn, review platforms, directories, and press mentions should all tell the same story.\n\n---\n\n## 10. Make your site crawlable by search and AI bots\n\nIf answer engines cannot access your content, they cannot use it.\n\nCheck:\n\n- Your `robots.txt`\n- No accidental `noindex` tags\n- Canonical tags\n- Sitemap\n- JavaScript rendering issues\n- Blocked CSS/JS\n- Page speed\n- Mobile usability\n- Broken links\n- Redirect chains\n\nFor ChatGPT Search visibility specifically, OpenAI says publishers should ensure they are not blocking `OAI-SearchBot` in `robots.txt`. ([help.openai.com](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai))\n\nExample:\n\n```txt\nUser-agent: OAI-SearchBot\nAllow: /\n```\n\nAlso make sure core",
+                    "annotations": [
+                      {
+                        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai",
+                        "start_index": 801,
+                        "end_index": 939,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))"
+                      },
+                      {
+                        "title": "AI Performance - Bing Webmaster Tools",
+                        "url": "https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c?utm_source=openai",
+                        "start_index": 1661,
+                        "end_index": 1753,
+                        "text": "([bing.com](https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c?utm_source=openai))"
+                      },
+                      {
+                        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai",
+                        "start_index": 5806,
+                        "end_index": 5944,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))"
+                      },
+                      {
+                        "title": "Publishers and Developers - FAQ | OpenAI Help Center",
+                        "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai",
+                        "start_index": 8639,
+                        "end_index": 8752,
+                        "text": "([help.openai.com](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai))"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "fan_out_queries": [
+              "Google AI Overviews SEO best practices structured data answer engine optimization 2026",
+              "OpenAI ChatGPT search website owners robots.txt OAI-SearchBot documentation",
+              "Bing generative search SEO best practices citation sources"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "parsed": {
+    "ok": true,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "cost": 0.115725,
+    "model": "gpt-5.5-2026-04-23",
+    "tag": "S1",
+    "prompt": "what is answer engine optimization and how do I do it?",
+    "run_at": "2026-08-31T09:06:06-07:00",
+    "day": "2026-08-31",
+    "cited_paultakisaki": false,
+    "text_mentions_paultakisaki": false,
+    "domains": [
+      "developers.google.com",
+      "bing.com",
+      "help.openai.com"
+    ],
+    "annotations": [
+      {
+        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+      },
+      {
+        "title": "AI Performance - Bing Webmaster Tools",
+        "url": "https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c?utm_source=openai"
+      },
+      {
+        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+      },
+      {
+        "title": "Publishers and Developers - FAQ | OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai"
+      }
+    ],
+    "answer_excerpt": "## What is Answer Engine Optimization?\n\n**Answer Engine Optimization (AEO)** is the practice of making your content easy for search engines and AI systems to **understand, extract, summarize, and cite as an answer**.\n\nTraditional SEO asks: **\u201cHow do I rank in search results?\u201d**  \nAEO asks: **\u201cHow do I become the answer?\u201d**\n\nIt applies to places like:\n\n- Google AI Overviews and AI Mode\n- Bing/Copilot answers\n- ChatGPT Search\n- Perplexity\n- Featured snippets\n- Voice assistants\n- \u201cPeople Also Ask\u201d results\n- Knowledge panels and local packs\n\nGoogle\u2019s own guidance says that classic SEO fundamentals still matter for AI search, and that there is no special \u201cAI schema\u201d or magic markup required. The foundation is still useful, original, crawlable, well-structured content that satisfies user intent. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n---\n\n# How to do Answer Engine Optimization\n\n## 1. Identify the questions your audience asks\n\nStart by building a list of **question-based queries** around your products, services, or expertise.\n\nLook for questions like:\n\n- What is ___?\n- How does ___ work?\n- How much does ___ cost?\n- Best ___ for ___?\n- ___ vs ___?\n- Is ___ worth it?\n- How do I fix ___?\n- What are the requirements for ___?\n- Can I ___?\n- Should I ___?\n\nUseful sources:\n\n- Google Search Console queries\n- People Also Ask\n- Reddit and forums\n- Sales calls\n- Customer support tickets\n- Inter",
+    "answer_chars": 8830,
+    "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-08-31-S1.json"
+  }
+}
