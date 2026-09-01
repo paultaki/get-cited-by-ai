@@ -1,5 +1,20 @@
 # Agent Notes
 
+## 2026-09-01 · beast (GEO vocab-floor score day 2/3)
+
+- **Did:** Continued multi-day ChatGPT battery for
+  `predictions/2026-07-16-paultakisaki-geo-hub-vocab-floor.md`. Live-copy gate
+  PASS; instrument OK. Day-2 scored cells **0/3** cite paultakisaki.com
+  (Q1–Q3); supplementary S1/S2 also 0. Running tally **0/6** across
+  2026-08-31 + 2026-09-01. Raw under `data/vocab-floor-score-2026-08-31/`.
+  Outcome left **UNSCORED**. Runner:
+  `~/.hermes/scripts/geo-vocab-floor-score-day.py`.
+- **Why:** G6 needs ≥3 separate days (≥9 cells). Day 2 is weather sample 2/3.
+- **Next:** Day 3 cron 2026-09-02 09:05 PT finalizes HOLDS/REFUTED at ≥9 cells,
+  then pending_ack Telegram confirm (`ack geo score`).
+- **Watch out:** Do not loosen the band. Do not set final Outcome on <9 cells.
+  Do not set pending_ack final nag until finalized.
+
 ## 2026-08-31 · beast (GEO vocab-floor score day 1/3)
 
 - **Did:** Opened the score-by battery for

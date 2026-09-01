@@ -69,3 +69,20 @@
   in pages export (only /insights/invisible-resume.html); ai_search_queries
   "No data available".
 
+- **Score progress 2026-09-01 (day 2/3, Outcome still UNSCORED):** Live-copy gate
+  PASS (`answer engine optimization (AEO) or AI SEO` still on hub). DataForSEO
+  ChatGPT scraper OK (llm_responses/live, US web_search, model gpt-5.5 /
+  gpt-5.5-2026-04-23). Day-2 scored cells **0/3 cited** paultakisaki.com:
+  - Q1 how do I get my website cited by AI search engines? → N
+    [help-lb.openai.com, developers.google.com, bing.com]
+  - Q2 what is generative engine optimization and how do I do it? → N
+    [no annotations / empty domains]
+  - Q3 does adding schema markup help my site get cited by AI? → N
+    [developers.google.com, bing.com, help.openai.com, aixiv.science]
+  Supplementary (not scored): S1 AEO → N [developers.google.com]; S2 AI SEO → N
+  [developers.google.com, bing.com]. Running tally **0/6 cited** across days
+  2026-08-31, 2026-09-01. Raw JSON under `data/vocab-floor-score-2026-08-31/`
+  (incl. `day-2026-09-01-summary.json`). G6 still requires day 3 (≥9 cells /
+  ≥3 days) before Outcome. Day 3 scheduled 2026-09-02 09:05 PT. Band untouched.
+  No pending_ack final nag until finalized.
+

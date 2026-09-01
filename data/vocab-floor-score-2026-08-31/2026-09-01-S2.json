@@ -1,0 +1,164 @@
+{
+  "request": {
+    "user_prompt": "how do I do AI SEO for my website?",
+    "model_name": "gpt-5.5",
+    "web_search": true,
+    "web_search_country_iso_code": "US"
+  },
+  "response": {
+    "version": "0.1.20260831",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "51.7581 sec.",
+    "cost": 0.11545,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "09011609-1059-0612-0000-01e7e158f16d",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "51.6617 sec.",
+        "cost": 0.11545,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "ai_optimization",
+          "chat_gpt",
+          "llm_responses",
+          "live"
+        ],
+        "data": {
+          "api": "ai_optimization",
+          "function": "llm_responses",
+          "se": "chat_gpt",
+          "user_prompt": "how do I do AI SEO for my website?",
+          "model_name": "gpt-5.5",
+          "web_search": true,
+          "web_search_country_iso_code": "US"
+        },
+        "result": [
+          {
+            "model_name": "gpt-5.5-2026-04-23",
+            "input_tokens": 8682,
+            "output_tokens": 2048,
+            "reasoning_tokens": 87,
+            "web_search": true,
+            "money_spent": 0.11485,
+            "datetime": "2026-09-01 16:10:04 +00:00",
+            "items": [
+              {
+                "type": "reasoning",
+                "sections": [
+                  {
+                    "type": "summary_text",
+                    "text": "**Exploring SEO AI Recommendations**\n\nI should look into the latest SEO recommendations for AI search. It seems like the best way to provide an accurate response is to browse current guidelines and recommendations. I need to ensure that I\u2019m checking reliable sources, as SEO practices can change rapidly. By gathering up-to-date information, I can create a response that effectively aligns with what users might find helpful and relevant. Let's see what the current trends are!"
+                  }
+                ]
+              },
+              {
+                "type": "message",
+                "sections": [
+                  {
+                    "type": "text",
+                    "text": "\u201cAI SEO\u201d usually means optimizing so your site can be **found, understood, cited, and trusted** by AI-powered search experiences like Google AI Overviews/AI Mode, Bing Copilot, Perplexity, ChatGPT browsing/search, etc. The short version: **good AI SEO is still strong technical SEO + genuinely useful, well-structured, authoritative content.** Google\u2019s own guidance says foundational SEO best practices remain the basis for visibility in generative AI search features. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n## 1. Start with classic SEO fundamentals\n\nBefore doing anything \u201cAI-specific,\u201d make sure your site is crawlable and indexable.\n\n**Checklist:**\n\n- Submit an XML sitemap in Google Search Console and Bing Webmaster Tools.\n- Make sure important pages are not blocked by `robots.txt`, `noindex`, login walls, or broken canonical tags.\n- Use clean URLs, descriptive titles, and strong meta descriptions.\n- Build a logical internal linking structure.\n- Improve Core Web Vitals, mobile usability, and page speed.\n- Make sure every important page has a clear purpose and target query/topic.\n\nGoogle\u2019s SEO starter guidance still emphasizes crawlability, useful content, site structure, and structured data as important foundations. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?rd=2&visit_id=639171826714484495-2888065406&utm_source=openai))\n\n## 2. Create content that AI systems can confidently summarize\n\nAI search tools tend to cite pages that are **clear, factual, well-structured, and directly useful**.\n\nFor each important page, add:\n\n- A concise answer near the top.\n- Clear headings using natural questions.\n- Definitions, steps, comparisons, examples, and tables.\n- Original insights, first-hand experience, data, images, case studies, or product details.\n- Author names, credentials, publication dates, and update dates where relevant.\n- Citations or references if you make factual claims.\n\nExample structure for a service page:\n\n```text\nH1: Commercial Roof Repair in Dallas\n\nIntro: Short answer explaining who you help and what you do.\n\nH2: What commercial roof repair includes\nH2: Common problems we fix\nH2: How our inspection process works\nH2: Cost factors\nH2: Why choose us\nH2: Frequently asked questions\nH2: Contact / quote request\n```\n\nAI systems need extractable, trustworthy chunks. Don\u2019t bury the useful answer 900 words down the page.\n\n## 3. Target questions, not just keywords\n\nTraditional SEO often focuses on keywords like:\n\n> \u201cbest CRM software\u201d\n\nAI search is more conversational:\n\n> \u201cWhat is the best CRM for a 10-person B2B sales team that needs HubSpot integration?\u201d\n\nSo build content around **real user questions**.\n\nGood page types for AI SEO:\n\n- FAQ pages\n- Comparison pages\n- \u201cBest for X\u201d pages\n- How-to guides\n- Glossaries\n- Troubleshooting guides\n- Buyer\u2019s guides\n- Industry statistics pages\n- Original research\n- Case studies\n- Product documentation\n\nFor each topic, answer:\n\n- What is it?\n- Who is it for?\n- How does it work?\n- How much does it cost?\n- What are the pros and cons?\n- What should someone compare?\n- What mistakes should they avoid?\n- When should they choose you vs. an alternative?\n\n## 4. Use structured data, but don\u2019t abuse it\n\nSchema markup helps search engines understand your content. Google specifically recommends making sure structured data matches the visible text on the page. ([developers.google.com](https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai))\n\nUseful schema types include:\n\n- `Organization`\n- `LocalBusiness`\n- `Product`\n- `Service`\n- `FAQPage`\n- `Article`\n- `HowTo`\n- `Review`\n- `BreadcrumbList`\n- `Person`\n- `VideoObject`\n\nExample for a local business:\n\n```json\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"LocalBusiness\",\n  \"name\": \"Example Plumbing Co.\",\n  \"image\": \"https://example.com/logo.jpg\",\n  \"url\": \"https://example.com\",\n  \"telephone\": \"+1-555-555-5555\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"123 Main St\",\n    \"addressLocality\": \"Austin\",\n    \"addressRegion\": \"TX\",\n    \"postalCode\": \"78701\",\n    \"addressCountry\": \"US\"\n  },\n  \"areaServed\": \"Austin, TX\",\n  \"sameAs\": [\n    \"https://www.linkedin.com/company/example\",\n    \"https://www.facebook.com/example\"\n  ]\n}\n```\n\nDon\u2019t add fake FAQ schema, fake reviews, or schema that does not match the page content.\n\n## 5. Strengthen E-E-A-T: experience, expertise, authority, trust\n\nAI systems and search engines are more likely to trust content that shows real-world credibility.\n\nAdd:\n\n- Author bios\n- Company background\n- Expert reviewers\n- Real photos, not only stock images\n- Case studies\n- Testimonials\n- Certifications\n- Awards\n- Transparent contact information\n- Clear refund, privacy, and terms pages\n- Sources for factual claims\n- Updated timestamps\n\nIf you are in health, finance, legal, or other high-trust industries, this matters even more.\n\n## 6. Build \u201centity\u201d clarity around your brand\n\nAI tools need to understand **who you are, what you do, where you operate, and why you matter**.\n\nMake your brand consistent across:\n\n- Website\n- Google Business Profile\n- Bing Places\n- LinkedIn\n- YouTube\n- Crunchbase or industry directories\n- Review platforms\n- Local citations\n- Author profiles\n- Press mentions\n- Podcast appearances\n- Partner pages\n\nYour site should clearly state:\n\n```text\n[Brand] is a [category] that helps [audience] achieve [outcome] using [method/product/service].\n```\n\nExample:\n\n> Acme Analytics is a B2B SaaS platform that helps ecommerce brands forecast inventory demand using real-time sales and supply chain data.\n\nPut this type of positioning on your homepage, About page, metadata, schema, social profiles, and PR materials.\n\n## 7. Make your content easy to quote and cite\n\nAI-generated answers often pull concise passages. Make important points quotable.\n\nInstead of:\n\n> Our platform has many advanced tools that users love.\n\nWrite:\n\n> Acme Analytics helps ecommerce teams reduce stockouts by forecasting demand across Shopify, Amazon, and warehouse data in one dashboard.\n\nUse:\n\n- Short paragraphs\n- Bullets\n- Tables\n- Definitions\n- \u201cKey takeaway\u201d boxes\n- TL;DR summaries\n- Step-by-step instructions\n- Original statistics\n\nExample:\n\n```text\nKey takeaway: AI SEO is not about tricking AI models. It is about making your site crawlable, trustworthy, well-structured, and useful enough to be selected as a source.\n```\n\n## 8. Create comparison and decision-support content\n\nAI search often helps people make decisions. If your site answers decision-oriented questions well, you have a better chance of being included.\n\nCreate pages like:\n\n- \u201c[Your product] vs [competitor]\u201d\n- \u201cBest [category] tools for [specific audience]\u201d\n- \u201cHow to choose a [service/product]\u201d\n- \u201c[Solution A] vs [Solution B]\u201d\n- \u201cIs [product/service] worth it?\u201d\n- \u201cCost of [service] in 2026\u201d\n- \u201cQuestions to ask before hiring a [provider]\u201d\n\nBe honest. Include limitations. AI systems and users both prefer balanced, useful content over pure sales copy.\n\n## 9. Optimize for Bing too\n\nBing matters more in AI SEO than many site owners realize because Microsoft Copilot and related AI search experiences use Bing\u2019s index and webmaster ecosystem. Bing says AI-generated answers depend on content that Bing can clearly interpret and verify, and Bing Webmaster Tools now includes AI Performance reporting that shows how your site is cited in AI-generated answers. ([bing.com](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a?afsrc=1&utm_source=openai))\n\nDo this:\n\n- Set up Bing Webmaster Tools.\n- Submit your sitemap.\n- Monitor index coverage.\n- Check Bing\u2019s AI Performance reports if available for your site.\n- Make sure your content is not blocked from Bingbot.\n- Keep your metadata and structured data clean.\n\n## 10. Don\u2019t mass-produce thin AI content\n\nUsing AI to help draft content is fine, but publishing generic AI articles at scale is risky and usually ineffective.\n\nGoogle\u2019s guidance on generative AI content focuses on whether the content is helpful and created for people, not whether AI was used. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=en&utm_source=openai))\n\nBad AI SEO content:\n\n- Repeats what every competitor says\n- Has no original examples\n- Has no expert input\n- Uses vague wording\n- Targets keywords without satisfying intent\n- Has fake authors or fake reviews\n- Publishes hundreds of low-value pages\n\nGood AI-assisted content:\n\n- Includes expert edits\n- Adds original examples\n- Reflects real customer questions\n- Contains accurate, current details\n- Shows first-hand experience\n- Is genuinely better than existing results\n\n## 11. Track AI visibility separately from SEO rankings\n\nTraditional rank tracking is not enough. Monitor:\n\n- Google Search Console impressions and clicks\n- Bing Webmaster Tools AI Performance data\n- Referral traffic from AI tools\n- Branded search growth",
+                    "annotations": [
+                      {
+                        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai",
+                        "start_index": 469,
+                        "end_index": 607,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))"
+                      },
+                      {
+                        "title": "SEO Starter Guide: The Basics | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide?rd=2&visit_id=639171826714484495-2888065406&utm_source=openai",
+                        "start_index": 1332,
+                        "end_index": 1493,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?rd=2&visit_id=639171826714484495-2888065406&utm_source=openai))"
+                      },
+                      {
+                        "title": "AI Features and Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai",
+                        "start_index": 3489,
+                        "end_index": 3598,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai))"
+                      },
+                      {
+                        "title": "Webmaster Guidelines - Bing Webmaster Tools",
+                        "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a?afsrc=1&utm_source=openai",
+                        "start_index": 7505,
+                        "end_index": 7611,
+                        "text": "([bing.com](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a?afsrc=1&utm_source=openai))"
+                      },
+                      {
+                        "title": "Google Search's Guidance on Generative AI Content on Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=en&utm_source=openai",
+                        "start_index": 8168,
+                        "end_index": 8294,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=en&utm_source=openai))"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "fan_out_queries": [
+              "Google Search Central AI SEO guidance AI Overviews structured data 2026",
+              "Google Search Central SEO starter guide structured data helpful content AI features",
+              "Bing Webmaster Guidelines AI search SEO generative answers"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "parsed": {
+    "ok": true,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "cost": 0.11545,
+    "model": "gpt-5.5-2026-04-23",
+    "cited_paultakisaki": false,
+    "text_mentions_paultakisaki": false,
+    "domains": [
+      "developers.google.com",
+      "bing.com"
+    ],
+    "annotations": [
+      {
+        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+      },
+      {
+        "title": "SEO Starter Guide: The Basics | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide?rd=2&visit_id=639171826714484495-2888065406&utm_source=openai"
+      },
+      {
+        "title": "AI Features and Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai"
+      },
+      {
+        "title": "Webmaster Guidelines - Bing Webmaster Tools",
+        "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a?afsrc=1&utm_source=openai"
+      },
+      {
+        "title": "Google Search's Guidance on Generative AI Content on Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=en&utm_source=openai"
+      }
+    ],
+    "answer_excerpt": "\u201cAI SEO\u201d usually means optimizing so your site can be **found, understood, cited, and trusted** by AI-powered search experiences like Google AI Overviews/AI Mode, Bing Copilot, Perplexity, ChatGPT browsing/search, etc. The short version: **good AI SEO is still strong technical SEO + genuinely useful, well-structured, authoritative content.** Google\u2019s own guidance says foundational SEO best practices remain the basis for visibility in generative AI search features. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n## 1. Start with classic SEO fundamentals\n\nBefore doing anything \u201cAI-specific,\u201d make sure your site is crawlable and indexable.\n\n**Checklist:**\n\n- Submit an XML sitemap in Google Search Console and Bing Webmaster Tools.\n- Make sure important pages are not blocked by `robots.txt`, `noindex`, login walls, or broken canonical tags.\n- Use clean URLs, descriptive titles, and strong meta descriptions.\n- Build a logical internal linking structure.\n- Improve Core Web Vitals, mobile usability, and page speed.\n- Make sure every important page has a clear purpose and target query/topic.\n\nGoogle\u2019s SEO starter guidance still emphasizes crawlability, useful content, site structure, and structured data as important foundations. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?rd=2&visit_id=639171826714484495-2888065406&utm_source=openai))\n\n## 2.",
+    "answer_chars": 9022,
+    "request": {
+      "user_prompt": "how do I do AI SEO for my website?",
+      "model_name": "gpt-5.5",
+      "web_search": true,
+      "web_search_country_iso_code": "US"
+    },
+    "tag": "S2",
+    "prompt": "how do I do AI SEO for my website?",
+    "run_at": "2026-09-01T09:10:04-07:00",
+    "day": "2026-09-01",
+    "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-09-01-S2.json"
+  }
+}

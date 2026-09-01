@@ -1,0 +1,226 @@
+{
+  "day": "2026-09-01",
+  "instrument": "DataForSEO chat_gpt/llm_responses/live",
+  "location": "US web_search",
+  "model": "gpt-5.5",
+  "scored_cells": [
+    {
+      "ok": true,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.125565,
+      "model": "gpt-5.5-2026-04-23",
+      "cited_paultakisaki": false,
+      "text_mentions_paultakisaki": false,
+      "domains": [
+        "help-lb.openai.com",
+        "developers.google.com",
+        "bing.com"
+      ],
+      "annotations": [
+        {
+          "title": "Publishers and Developers - FAQ | OpenAI Help Center",
+          "url": "https://help-lb.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai"
+        },
+        {
+          "title": "AI Features and Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+          "url": "https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai"
+        },
+        {
+          "title": "AI Features and Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+          "url": "https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai"
+        },
+        {
+          "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+          "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+        },
+        {
+          "title": "AI Performance - Bing Webmaster Tools",
+          "url": "https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c?utm_source=openai"
+        },
+        {
+          "title": "Top ways to ensure your content performs well in Google's AI experiences on Search \u00a0|\u00a0 Google Search Central Blog \u00a0|\u00a0 Google for Developers",
+          "url": "https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search?utm_source=openai"
+        }
+      ],
+      "answer_excerpt": "To get your website cited by AI search engines \u2014 ChatGPT Search, Google AI Overviews / AI Mode, Perplexity, Bing Copilot, etc. \u2014 think less \u201ctrick the AI\u201d and more **make your pages easy to crawl, trust, extract, and cite**.\n\nThere\u2019s no guaranteed submission form that forces citations. The practical playbook is:\n\n## 1. Make sure AI/search crawlers can access your site\n\nIf your content is blocked, it won\u2019t be cited.\n\nCheck your `robots.txt` and CDN/WAF rules for:\n\n- **Googlebot** \u2014 for Google Search and AI features.\n- **Bingbot** \u2014 important for Bing Copilot and Microsoft AI experiences.\n- **OAI-SearchBot** \u2014 OpenAI\u2019s search crawler for ChatGPT search results.\n- Avoid accidentally blocking crawlers with Cloudflare, bot protection, geo blocking, paywalls, login walls, or heavy JavaScript rendering.\n\nOpenAI says publishers that allow **OAI-SearchBot** can appear in ChatGPT search results and track referral traffic from ChatGPT; it also distinguishes that from **GPTBot**, which relates to training opt-out controls. ([help-lb.openai.com](https://help-lb.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai))\n\n## 2. Do strong traditional SEO first\n\nAI search engines still rely heavily on web search indexes, retrieval systems, and rankings. Google\u2019s own guidance says SEO best practices remain relevant for AI features like AI Overviews and AI Mode. ([developers.google.com](https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai))\n\n",
+      "answer_chars": 9204,
+      "request": {
+        "user_prompt": "how do I get my website cited by AI search engines?",
+        "model_name": "gpt-5.5",
+        "web_search": true,
+        "web_search_country_iso_code": "US"
+      },
+      "tag": "Q1",
+      "prompt": "how do I get my website cited by AI search engines?",
+      "run_at": "2026-09-01T09:06:45-07:00",
+      "day": "2026-09-01",
+      "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-09-01-Q1.json"
+    },
+    {
+      "ok": true,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.08437,
+      "model": "gpt-5.5-2026-04-23",
+      "cited_paultakisaki": false,
+      "text_mentions_paultakisaki": false,
+      "domains": [],
+      "annotations": [],
+      "answer_excerpt": "**Generative Engine Optimization (GEO)** is the practice of making your brand, website, and content more likely to be discovered, understood, cited, or recommended by AI-powered answer engines such as ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews.\n\nIt is similar to SEO, but instead of optimizing only for traditional search rankings, GEO focuses on helping **generative AI systems understand your expertise and include your content in answers**.\n\n## GEO vs. SEO\n\n| SEO | GEO |\n|---|---|\n| Optimizes for search engine rankings | Optimizes for AI-generated answers |\n| Focuses on keywords, backlinks, technical SEO | Focuses on clarity, authority, citations, structured information, brand/entity recognition |\n| Goal: get users to click your result | Goal: get AI systems to mention, cite, summarize, or recommend you |\n| Content is written for search results pages | Content is written to be easily parsed, trusted, and reused by answer engines |\n\nGood GEO usually builds on good SEO. You should not abandon SEO; you should extend it.\n\n---\n\n# How to do Generative Engine Optimization\n\n## 1. Create content that directly answers real questions\n\nGenerative engines work well with clear, direct answers. Your pages should address the kinds of questions people actually ask AI tools.\n\nInstead of only writing:\n\n> \u201cOur platform helps teams improve productivity.\u201d\n\nWrite content that answers:\n\n- What is the best software for remote team productivity?\n- How does project management ",
+      "answer_chars": 9450,
+      "request": {
+        "user_prompt": "what is generative engine optimization and how do I do it?",
+        "model_name": "gpt-5.5",
+        "web_search": true,
+        "web_search_country_iso_code": "US"
+      },
+      "tag": "Q2",
+      "prompt": "what is generative engine optimization and how do I do it?",
+      "run_at": "2026-09-01T09:07:41-07:00",
+      "day": "2026-09-01",
+      "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-09-01-Q2.json"
+    },
+    {
+      "ok": true,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.09441,
+      "model": "gpt-5.5-2026-04-23",
+      "cited_paultakisaki": false,
+      "text_mentions_paultakisaki": false,
+      "domains": [
+        "developers.google.com",
+        "bing.com",
+        "help.openai.com",
+        "aixiv.science"
+      ],
+      "annotations": [
+        {
+          "title": "Intro to How Structured Data Markup Works | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+          "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?utm_source=openai"
+        },
+        {
+          "title": "Marking Up Your Site with Structured Data - Bing Webmaster Tools",
+          "url": "https://www.bing.com/webmasters/help/marking-up-your-site-with-structured-data-3a93e731?country=69&utm_source=openai"
+        },
+        {
+          "title": "Publishers and Developers - FAQ | OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai"
+        },
+        {
+          "title": "AI Performance - Bing Webmaster Tools",
+          "url": "https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c?utm_source=openai"
+        },
+        {
+          "title": "Does Schema Markup Predict AI Citation?",
+          "url": "https://aixiv.science/pdf/aixiv.260222.000002?utm_source=openai"
+        },
+        {
+          "title": "AI Performance - Bing Webmaster Tools",
+          "url": "https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c?utm_source=openai"
+        }
+      ],
+      "answer_excerpt": "**Short answer: yes, schema markup can help\u2014but it\u2019s not a direct \u201cget cited by AI\u201d switch.** Think of schema as **clarity infrastructure**, not a ranking/citation hack.\n\n### How schema *can* help AI citations\n\nSchema markup helps search engines and AI-assisted search systems understand:\n\n- what the page is about,\n- who authored or published it,\n- what entities are mentioned,\n- whether content is an article, product, FAQ, how-to, review, recipe, local business page, etc.,\n- dates, pricing, ratings, organization details, and other structured facts.\n\nGoogle\u2019s structured-data docs frame schema primarily as a way to make pages eligible for rich results and help Google understand page content; Google recommends JSON-LD where possible. ([developers.google.com](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?utm_source=openai)) Bing also supports structured data as a way for publishers to annotate structured content for its crawlers. ([bing.com](https://www.bing.com/webmasters/help/marking-up-your-site-with-structured-data-3a93e731?country=69&utm_source=openai))\n\nFor AI citations specifically, schema may help **after your page is already discoverable and relevant** by making facts easier to extract. But the bigger determinants are usually:\n\n1. **Can the AI/search system access and crawl the page?**\n2. **Does the page clearly answer the query?**\n3. **Is the content original, useful, and trustworthy?**\n4. **Does the page rank or surface well ",
+      "answer_chars": 4420,
+      "request": {
+        "user_prompt": "does adding schema markup help my site get cited by AI?",
+        "model_name": "gpt-5.5",
+        "web_search": true,
+        "web_search_country_iso_code": "US"
+      },
+      "tag": "Q3",
+      "prompt": "does adding schema markup help my site get cited by AI?",
+      "run_at": "2026-09-01T09:08:15-07:00",
+      "day": "2026-09-01",
+      "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-09-01-Q3.json"
+    }
+  ],
+  "supplementary_cells": [
+    {
+      "ok": true,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.11448,
+      "model": "gpt-5.5-2026-04-23",
+      "cited_paultakisaki": false,
+      "text_mentions_paultakisaki": false,
+      "domains": [
+        "developers.google.com"
+      ],
+      "annotations": [
+        {
+          "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+          "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+        },
+        {
+          "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+          "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+        }
+      ],
+      "answer_excerpt": "**Answer Engine Optimization \u2014 AEO \u2014** is the practice of making your content easy for search engines, AI assistants, voice assistants, and generative search tools to understand, trust, extract, summarize, and cite as a direct answer.\n\nThink of it as **SEO for \u201canswer surfaces\u201d** like:\n\n- Google AI Overviews / AI Mode\n- Featured snippets\n- People Also Ask\n- Bing Copilot\n- Perplexity\n- ChatGPT with search/browsing\n- Voice assistants\n- Knowledge panels\n\nGoogle\u2019s own guidance says that many \u201cAEO/GEO hacks\u201d are not separate magic; the core is still creating useful, crawlable, high-quality content that satisfies search intent, with clear structure and strong trust signals. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n## The simple version\n\nTraditional SEO asks:\n\n> \u201cHow do I rank this page?\u201d\n\nAEO asks:\n\n> \u201cHow do I make my content the clearest, most trustworthy answer to a specific question?\u201d\n\n---\n\n# How to do Answer Engine Optimization\n\n## 1. Target questions, not just keywords\n\nBuild pages around the actual questions your audience asks.\n\nInstead of only targeting:\n\n> \u201cemail marketing software\u201d\n\nAlso target:\n\n> \u201cWhat is the best email marketing software for small ecommerce stores?\u201d  \n> \u201cHow much does email marketing software cost?\u201d  \n> \u201cMailchimp vs Klaviyo for Shopify: which is better?\u201d  \n> \u201cHow do I improve email open rates?\u201d\n\n**How to find questions:**\n\n- Google autocomplete\n- People ",
+      "answer_chars": 8961,
+      "request": {
+        "user_prompt": "what is answer engine optimization and how do I do it?",
+        "model_name": "gpt-5.5",
+        "web_search": true,
+        "web_search_country_iso_code": "US"
+      },
+      "tag": "S1",
+      "prompt": "what is answer engine optimization and how do I do it?",
+      "run_at": "2026-09-01T09:09:11-07:00",
+      "day": "2026-09-01",
+      "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-09-01-S1.json"
+    },
+    {
+      "ok": true,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.11545,
+      "model": "gpt-5.5-2026-04-23",
+      "cited_paultakisaki": false,
+      "text_mentions_paultakisaki": false,
+      "domains": [
+        "developers.google.com",
+        "bing.com"
+      ],
+      "annotations": [
+        {
+          "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+          "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+        },
+        {
+          "title": "SEO Starter Guide: The Basics | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+          "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide?rd=2&visit_id=639171826714484495-2888065406&utm_source=openai"
+        },
+        {
+          "title": "AI Features and Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+          "url": "https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai"
+        },
+        {
+          "title": "Webmaster Guidelines - Bing Webmaster Tools",
+          "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a?afsrc=1&utm_source=openai"
+        },
+        {
+          "title": "Google Search's Guidance on Generative AI Content on Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+          "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=en&utm_source=openai"
+        }
+      ],
+      "answer_excerpt": "\u201cAI SEO\u201d usually means optimizing so your site can be **found, understood, cited, and trusted** by AI-powered search experiences like Google AI Overviews/AI Mode, Bing Copilot, Perplexity, ChatGPT browsing/search, etc. The short version: **good AI SEO is still strong technical SEO + genuinely useful, well-structured, authoritative content.** Google\u2019s own guidance says foundational SEO best practices remain the basis for visibility in generative AI search features. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n## 1. Start with classic SEO fundamentals\n\nBefore doing anything \u201cAI-specific,\u201d make sure your site is crawlable and indexable.\n\n**Checklist:**\n\n- Submit an XML sitemap in Google Search Console and Bing Webmaster Tools.\n- Make sure important pages are not blocked by `robots.txt`, `noindex`, login walls, or broken canonical tags.\n- Use clean URLs, descriptive titles, and strong meta descriptions.\n- Build a logical internal linking structure.\n- Improve Core Web Vitals, mobile usability, and page speed.\n- Make sure every important page has a clear purpose and target query/topic.\n\nGoogle\u2019s SEO starter guidance still emphasizes crawlability, useful content, site structure, and structured data as important foundations. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?rd=2&visit_id=639171826714484495-2888065406&utm_source=openai))\n\n## 2.",
+      "answer_chars": 9022,
+      "request": {
+        "user_prompt": "how do I do AI SEO for my website?",
+        "model_name": "gpt-5.5",
+        "web_search": true,
+        "web_search_country_iso_code": "US"
+      },
+      "tag": "S2",
+      "prompt": "how do I do AI SEO for my website?",
+      "run_at": "2026-09-01T09:10:04-07:00",
+      "day": "2026-09-01",
+      "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-09-01-S2.json"
+    }
+  ],
+  "scored_cited_count": 0,
+  "scored_ok_count": 3
+}

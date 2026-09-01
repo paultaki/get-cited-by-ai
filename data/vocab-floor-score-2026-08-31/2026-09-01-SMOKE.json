@@ -1,0 +1,31 @@
+{
+  "parsed": {
+    "ok": true,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "cost": 0.055845,
+    "model": "gpt-5.5-2026-04-23",
+    "cited_paultakisaki": false,
+    "text_mentions_paultakisaki": false,
+    "domains": [
+      "developers.google.com"
+    ],
+    "annotations": [
+      {
+        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?utm_source=openai"
+      }
+    ],
+    "answer_excerpt": "READY \u2014 public AI SEO page found: Google\u2019s guide to optimizing for generative AI features on Search. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?utm_source=openai))",
+    "answer_chars": 222,
+    "request": {
+      "user_prompt": "Reply READY and cite one public AI SEO page if found.",
+      "model_name": "gpt-5.5",
+      "web_search": true,
+      "web_search_country_iso_code": "US"
+    },
+    "tag": "SMOKE",
+    "day": "2026-09-01",
+    "prompt": "smoke"
+  }
+}

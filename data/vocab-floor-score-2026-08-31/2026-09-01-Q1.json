@@ -1,0 +1,176 @@
+{
+  "request": {
+    "user_prompt": "how do I get my website cited by AI search engines?",
+    "model_name": "gpt-5.5",
+    "web_search": true,
+    "web_search_country_iso_code": "US"
+  },
+  "response": {
+    "version": "0.1.20260831",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "52.0811 sec.",
+    "cost": 0.125565,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "09011605-1059-0612-0000-0be3b25398ba",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "52.0400 sec.",
+        "cost": 0.125565,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "ai_optimization",
+          "chat_gpt",
+          "llm_responses",
+          "live"
+        ],
+        "data": {
+          "api": "ai_optimization",
+          "function": "llm_responses",
+          "se": "chat_gpt",
+          "user_prompt": "how do I get my website cited by AI search engines?",
+          "model_name": "gpt-5.5",
+          "web_search": true,
+          "web_search_country_iso_code": "US"
+        },
+        "result": [
+          {
+            "model_name": "gpt-5.5-2026-04-23",
+            "input_tokens": 10705,
+            "output_tokens": 2048,
+            "reasoning_tokens": 97,
+            "web_search": true,
+            "money_spent": 0.124965,
+            "datetime": "2026-09-01 16:06:44 +00:00",
+            "items": [
+              {
+                "type": "reasoning",
+                "sections": [
+                  {
+                    "type": "summary_text",
+                    "text": "**Exploring current recommendations**\n\nI think we need to stay updated with current recommendations, maybe through web searches. I realize that AI search engines often provide insights on SEO and GEO, which are constantly changing. There\u2019s so much information out there! I should consider browsing to get the latest details, so I can deliver accurate and relevant recommendations. It's all about making sure I'm providing the best information for the user\u2019s needs."
+                  }
+                ]
+              },
+              {
+                "type": "message",
+                "sections": [
+                  {
+                    "type": "text",
+                    "text": "To get your website cited by AI search engines \u2014 ChatGPT Search, Google AI Overviews / AI Mode, Perplexity, Bing Copilot, etc. \u2014 think less \u201ctrick the AI\u201d and more **make your pages easy to crawl, trust, extract, and cite**.\n\nThere\u2019s no guaranteed submission form that forces citations. The practical playbook is:\n\n## 1. Make sure AI/search crawlers can access your site\n\nIf your content is blocked, it won\u2019t be cited.\n\nCheck your `robots.txt` and CDN/WAF rules for:\n\n- **Googlebot** \u2014 for Google Search and AI features.\n- **Bingbot** \u2014 important for Bing Copilot and Microsoft AI experiences.\n- **OAI-SearchBot** \u2014 OpenAI\u2019s search crawler for ChatGPT search results.\n- Avoid accidentally blocking crawlers with Cloudflare, bot protection, geo blocking, paywalls, login walls, or heavy JavaScript rendering.\n\nOpenAI says publishers that allow **OAI-SearchBot** can appear in ChatGPT search results and track referral traffic from ChatGPT; it also distinguishes that from **GPTBot**, which relates to training opt-out controls. ([help-lb.openai.com](https://help-lb.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai))\n\n## 2. Do strong traditional SEO first\n\nAI search engines still rely heavily on web search indexes, retrieval systems, and rankings. Google\u2019s own guidance says SEO best practices remain relevant for AI features like AI Overviews and AI Mode. ([developers.google.com](https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai))\n\nPrioritize:\n\n- Fast, crawlable pages.\n- Clean internal linking.\n- Descriptive titles and meta descriptions.\n- XML sitemap.\n- Canonical tags.\n- Helpful, original content.\n- Good Core Web Vitals.\n- HTTPS.\n- No indexation mistakes.\n- Clear page hierarchy: `h1`, `h2`, `h3`.\n\nIf you are not ranking in normal search, you are much less likely to be cited in AI answers.\n\n## 3. Create \u201canswer-ready\u201d pages\n\nAI systems often cite sources that can directly support a specific claim. So each important page should have:\n\n- A clear question or topic in the heading.\n- A concise answer near the top.\n- Supporting details below.\n- Definitions, steps, tables, examples, pros/cons, FAQs.\n- Specific facts, dates, numbers, comparisons, and methodology.\n- Original insight instead of generic rewritten content.\n\nExample structure:\n\n```text\nH1: Best CRM for Small Law Firms in 2026\n\nShort answer:\nThe best CRM for most small law firms is X because...\n\nComparison table:\nProduct | Best for | Pricing | Key limitation\n\nDetailed sections:\n- Why X is best overall\n- Best low-cost option\n- Best for intake automation\n- How we evaluated these CRMs\n- FAQs\n```\n\nAI search engines need extractable passages. Don\u2019t bury the answer after 1,500 words of intro.\n\n## 4. Publish content that deserves to be cited\n\nGeneric blog posts are rarely citation-worthy. AI engines are more likely to cite pages that add something useful, such as:\n\n- Original research.\n- First-party data.\n- Benchmarks.\n- Case studies.\n- Product comparisons.\n- Pricing breakdowns.\n- Expert commentary.\n- Step-by-step procedures.\n- Local or niche information not widely available elsewhere.\n- Clear explanations of complex topics.\n\nA good test: **If an AI answer cited your page, what unique claim would your page support?**\n\nIf the answer is \u201cnothing unique,\u201d improve the page.\n\n## 5. Build topical authority, not just individual posts\n\nAI search engines tend to favor sources that look authoritative for a topic. Build clusters around your niche.\n\nFor example, if you sell accounting software for contractors, don\u2019t publish only:\n\n- \u201cBest Accounting Software\u201d\n\nAlso publish:\n\n- \u201cAccounting Software for General Contractors\u201d\n- \u201cJob Costing vs. Project Accounting\u201d\n- \u201cHow Contractors Track Retainage\u201d\n- \u201cConstruction WIP Reports Explained\u201d\n- \u201cQuickBooks vs. X for Contractors\u201d\n- \u201cChart of Accounts for Construction Companies\u201d\n- \u201cConstruction Accounting Glossary\u201d\n\nThen internally link them together.\n\n## 6. Use structured data, but don\u2019t overestimate it\n\nSchema helps search engines understand your pages, but it is not a magic \u201cget cited by AI\u201d switch. Google says structured data should match visible page content and follow its guidelines. ([developers.google.com](https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai)) Google also notes there is no special schema markup required for generative AI search features. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\nUseful schema types include:\n\n- `Article`\n- `FAQPage`\n- `HowTo`\n- `Product`\n- `Review`\n- `Organization`\n- `Person`\n- `LocalBusiness`\n- `BreadcrumbList`\n- `SoftwareApplication`\n- `Dataset`\n\nBut the visible content matters more than markup alone.\n\n## 7. Make your brand/entity easy to understand\n\nAI engines cite brands they can contextualize. Make sure your site clearly states:\n\n- Who you are.\n- What you do.\n- Who your content is for.\n- Who wrote or reviewed the content.\n- Credentials.\n- Contact information.\n- Editorial standards.\n- About page.\n- Author bios.\n- Company location, if relevant.\n- SameAs links to authoritative profiles.\n\nFor YMYL topics \u2014 health, finance, legal, safety \u2014 expertise and trust signals matter even more.\n\n## 8. Earn mentions and citations from other reputable sites\n\nAI systems often triangulate across the web. Your own site matters, but so do third-party references.\n\nWork on getting mentioned in:\n\n- Industry publications.\n- Comparison sites.\n- Review platforms.\n- Podcasts.\n- Reddit/community discussions, where appropriate.\n- YouTube descriptions/transcripts.\n- Wikipedia/Wikidata, if genuinely notable.\n- Local directories.\n- Academic or government sources, if relevant.\n- Partner/customer case studies.\n\nThe goal is for the web to consistently associate your brand with your topic.\n\n## 9. Keep important pages fresh\n\nAI search is often used for current answers. Add visible:\n\n- Published date.\n- Updated date.\n- Version history, where useful.\n- Current pricing or availability.\n- \u201cLast reviewed by\u201d for expert content.\n\nDo not fake freshness, but do maintain pages that target changing topics.\n\n## 10. Optimize for specific prompts, not just keywords\n\nTraditional SEO asks: \u201cWhat keyword do I want to rank for?\u201d\n\nAI citation optimization asks: \u201cWhat question would someone ask an AI where my page should be cited?\u201d\n\nExamples:\n\n- \u201cWhat is the best payroll software for restaurants?\u201d\n- \u201cHow do I calculate customer churn?\u201d\n- \u201cIs X better than Y for Shopify stores?\u201d\n- \u201cWhat are the OSHA requirements for small construction companies?\u201d\n- \u201cHow much does a fractional CFO cost?\u201d\n\nCreate pages that answer these directly.\n\n## 11. Make pages technically easy to extract\n\nAvoid making your most important content hard for crawlers or AI retrieval systems to parse.\n\nDo:\n\n- Use semantic HTML.\n- Put key answers in plain text.\n- Use tables where useful.\n- Add alt text to important images.\n- Include transcripts for videos.\n- Avoid putting important copy only in images, PDFs, accordions, tabs, or scripts.\n- Make sure server-rendered HTML contains the main content.\n\nAI engines need to pull passages cleanly.\n\n## 12. Monitor AI visibility\n\nYou can\u2019t fully track all AI citations yet, but you can monitor signals.\n\nUse:\n\n- Google Search Console.\n- Bing Webmaster Tools.\n- Bing\u2019s AI Performance report, which shows how a site\u2019s content is used in AI-generated answers across Microsoft Copilot and partner experiences, including cited URLs and grounding queries. ([bing.com](https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c?utm_source=openai))\n- Server logs for AI/search crawler visits.\n- Analytics referrals from ChatGPT, Perplexity, Copilot, Gemini, etc.\n- Manual testing of priority prompts.\n- Brand monitoring tools.\n\nTrack prompts like:\n\n```text\nbest [category] for [audience]\nhow to [solve problem]\n[brand] vs [competitor]\nwhat is the cost of [service]\ntop [tools/products] for [use case]\n```\n\n## 13. Don\u2019t rely on \u201cLLMs.txt\u201d alone\n\nSome people recommend adding an `llms.txt` file. It may be useful as an experimental content map, but it is not an official standard across major AI search engines, and it will not compensate for weak content, poor crawling, or lack of authority.\n\nIf you add one, treat it as optional, not core strategy.\n\n## 14. Use a practical page template\n\nFor pages you want AI engines to cite, use this structure:\n\n```text\nTitle:\nClear query-focused title\n\nIntro:\n2\u20134 sentence direct answer\n\nKey facts:\nBullet list of the most citation-worthy claims\n\nMain explanation:\nDetailed, well-sourced content\n\nComparison table:\nIf relevant\n\nMethodology:\nHow you know what you know\n\nExamples:\nConcrete use cases\n\nFAQ:\nShort answers to related questions\n\nAuthor/reviewer:\nCredentials and date updated\n```\n\n## 15. Avoid spammy \u201cGEO\u201d tactics\n\nBe careful with agencies promising guaranteed AI citations. Google\u2019s guidance emphasizes helpful content, crawlability, user experience, and standard SEO fundamentals for AI features, not secret AI-specific markup. ([developers.google.com](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search?utm_source=openai))\n\nAvoid:\n\n- Mass-producing thin AI content.\n",
+                    "annotations": [
+                      {
+                        "title": "Publishers and Developers - FAQ | OpenAI Help Center",
+                        "url": "https://help-lb.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai",
+                        "start_index": 1027,
+                        "end_index": 1146,
+                        "text": "([help-lb.openai.com](https://help-lb.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai))"
+                      },
+                      {
+                        "title": "AI Features and Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai",
+                        "start_index": 1389,
+                        "end_index": 1498,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai))"
+                      },
+                      {
+                        "title": "AI Features and Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai",
+                        "start_index": 4184,
+                        "end_index": 4293,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai))"
+                      },
+                      {
+                        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai",
+                        "start_index": 4390,
+                        "end_index": 4528,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))"
+                      },
+                      {
+                        "title": "AI Performance - Bing Webmaster Tools",
+                        "url": "https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c?utm_source=openai",
+                        "start_index": 7520,
+                        "end_index": 7612,
+                        "text": "([bing.com](https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c?utm_source=openai))"
+                      },
+                      {
+                        "title": "Top ways to ensure your content performs well in Google's AI experiences on Search \u00a0|\u00a0 Google Search Central Blog \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search?utm_source=openai",
+                        "start_index": 9043,
+                        "end_index": 9161,
+                        "text": "([developers.google.com](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search?utm_source=openai))"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "fan_out_queries": [
+              "Google AI Overviews website cited best practices structured data 2026",
+              "OpenAI SearchGPT ChatGPT search publishers optimize website citations",
+              "Bing Copilot AI search citations how content is selected SEO"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "parsed": {
+    "ok": true,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "cost": 0.125565,
+    "model": "gpt-5.5-2026-04-23",
+    "cited_paultakisaki": false,
+    "text_mentions_paultakisaki": false,
+    "domains": [
+      "help-lb.openai.com",
+      "developers.google.com",
+      "bing.com"
+    ],
+    "annotations": [
+      {
+        "title": "Publishers and Developers - FAQ | OpenAI Help Center",
+        "url": "https://help-lb.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai"
+      },
+      {
+        "title": "AI Features and Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai"
+      },
+      {
+        "title": "AI Features and Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai"
+      },
+      {
+        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+      },
+      {
+        "title": "AI Performance - Bing Webmaster Tools",
+        "url": "https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c?utm_source=openai"
+      },
+      {
+        "title": "Top ways to ensure your content performs well in Google's AI experiences on Search \u00a0|\u00a0 Google Search Central Blog \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search?utm_source=openai"
+      }
+    ],
+    "answer_excerpt": "To get your website cited by AI search engines \u2014 ChatGPT Search, Google AI Overviews / AI Mode, Perplexity, Bing Copilot, etc. \u2014 think less \u201ctrick the AI\u201d and more **make your pages easy to crawl, trust, extract, and cite**.\n\nThere\u2019s no guaranteed submission form that forces citations. The practical playbook is:\n\n## 1. Make sure AI/search crawlers can access your site\n\nIf your content is blocked, it won\u2019t be cited.\n\nCheck your `robots.txt` and CDN/WAF rules for:\n\n- **Googlebot** \u2014 for Google Search and AI features.\n- **Bingbot** \u2014 important for Bing Copilot and Microsoft AI experiences.\n- **OAI-SearchBot** \u2014 OpenAI\u2019s search crawler for ChatGPT search results.\n- Avoid accidentally blocking crawlers with Cloudflare, bot protection, geo blocking, paywalls, login walls, or heavy JavaScript rendering.\n\nOpenAI says publishers that allow **OAI-SearchBot** can appear in ChatGPT search results and track referral traffic from ChatGPT; it also distinguishes that from **GPTBot**, which relates to training opt-out controls. ([help-lb.openai.com](https://help-lb.openai.com/en/articles/12627856-publishers-and-developers-faq?utm_source=openai))\n\n## 2. Do strong traditional SEO first\n\nAI search engines still rely heavily on web search indexes, retrieval systems, and rankings. Google\u2019s own guidance says SEO best practices remain relevant for AI features like AI Overviews and AI Mode. ([developers.google.com](https://developers.google.com/search/docs/appearance/ai-features?utm_source=openai))\n\n",
+    "answer_chars": 9204,
+    "request": {
+      "user_prompt": "how do I get my website cited by AI search engines?",
+      "model_name": "gpt-5.5",
+      "web_search": true,
+      "web_search_country_iso_code": "US"
+    },
+    "tag": "Q1",
+    "prompt": "how do I get my website cited by AI search engines?",
+    "run_at": "2026-09-01T09:06:45-07:00",
+    "day": "2026-09-01",
+    "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-09-01-Q1.json"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "request": {
+    "user_prompt": "what is generative engine optimization and how do I do it?",
+    "model_name": "gpt-5.5",
+    "web_search": true,
+    "web_search_country_iso_code": "US"
+  },
+  "response": {
+    "version": "0.1.20260831",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "54.4603 sec.",
+    "cost": 0.08437,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "09011606-1059-0612-0000-85aa00a2e752",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "54.3829 sec.",
+        "cost": 0.08437,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "ai_optimization",
+          "chat_gpt",
+          "llm_responses",
+          "live"
+        ],
+        "data": {
+          "api": "ai_optimization",
+          "function": "llm_responses",
+          "se": "chat_gpt",
+          "user_prompt": "what is generative engine optimization and how do I do it?",
+          "model_name": "gpt-5.5",
+          "web_search": true,
+          "web_search_country_iso_code": "US"
+        },
+        "result": [
+          {
+            "model_name": "gpt-5.5-2026-04-23",
+            "input_tokens": 4466,
+            "output_tokens": 2048,
+            "reasoning_tokens": 44,
+            "web_search": false,
+            "money_spent": 0.08377,
+            "datetime": "2026-09-01 16:07:41 +00:00",
+            "items": [
+              {
+                "type": "reasoning",
+                "sections": [
+                  {
+                    "type": "summary_text",
+                    "text": "**Considering marketing terminology**\n\nI'm thinking that we can provide a general answer about current marketing terms. They might be beneficial now, but it's not a necessity. While recommendations could evolve, I have to keep my answers broad and not overly focused on the latest trends. I wonder if the user is asking specifically how to apply this knowledge, so I might consider answering based on what I already know rather than looking it up online."
+                  }
+                ]
+              },
+              {
+                "type": "message",
+                "sections": [
+                  {
+                    "type": "text",
+                    "text": "**Generative Engine Optimization (GEO)** is the practice of making your brand, website, and content more likely to be discovered, understood, cited, or recommended by AI-powered answer engines such as ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews.\n\nIt is similar to SEO, but instead of optimizing only for traditional search rankings, GEO focuses on helping **generative AI systems understand your expertise and include your content in answers**.\n\n## GEO vs. SEO\n\n| SEO | GEO |\n|---|---|\n| Optimizes for search engine rankings | Optimizes for AI-generated answers |\n| Focuses on keywords, backlinks, technical SEO | Focuses on clarity, authority, citations, structured information, brand/entity recognition |\n| Goal: get users to click your result | Goal: get AI systems to mention, cite, summarize, or recommend you |\n| Content is written for search results pages | Content is written to be easily parsed, trusted, and reused by answer engines |\n\nGood GEO usually builds on good SEO. You should not abandon SEO; you should extend it.\n\n---\n\n# How to do Generative Engine Optimization\n\n## 1. Create content that directly answers real questions\n\nGenerative engines work well with clear, direct answers. Your pages should address the kinds of questions people actually ask AI tools.\n\nInstead of only writing:\n\n> \u201cOur platform helps teams improve productivity.\u201d\n\nWrite content that answers:\n\n- What is the best software for remote team productivity?\n- How does project management software reduce meeting time?\n- What are the pros and cons of using workflow automation?\n- How does your product compare to alternatives?\n- Who is your product best for?\n- What use cases do you support?\n\nUse sections like:\n\n```text\nWhat is [topic]?\nHow does [topic] work?\nBenefits of [topic]\nBest practices\nCommon mistakes\nComparison with alternatives\nFAQs\nExamples\nPricing considerations\nWho this is best for\n```\n\nAI systems prefer content that can be cleanly extracted into useful answers.\n\n---\n\n## 2. Build topical authority\n\nAI engines are more likely to trust sources that demonstrate depth across a topic.\n\nIf you sell accounting software, do not publish only one page called \u201cBest Accounting Software.\u201d Build a content cluster around:\n\n- Small business bookkeeping\n- Invoicing\n- Tax preparation\n- Payroll\n- Cash flow management\n- Accounting software comparisons\n- Compliance requirements\n- Industry-specific accounting needs\n- Common accounting mistakes\n\nYour goal is to become a recognizable authority on the subject, not just rank for one keyword.\n\n---\n\n## 3. Make your content factual, specific, and citation-worthy\n\nGenerative AI tools often favor content that contains concrete, verifiable information.\n\nWeak content:\n\n> \u201cWe help businesses save time and money.\u201d\n\nStronger content:\n\n> \u201cOur platform automates invoice matching, payment reminders, approval workflows, and monthly reconciliation for small finance teams.\u201d\n\nAdd:\n\n- Statistics\n- Original research\n- Benchmarks\n- Case studies\n- Customer examples\n- Step-by-step processes\n- Expert commentary\n- Definitions\n- Data tables\n- Clear comparisons\n- FAQs\n\nThe more specific your content is, the easier it is for AI systems to summarize and reference it.\n\n---\n\n## 4. Strengthen your entity signals\n\nGenerative engines need to understand **who you are**, **what you do**, and **why you are credible**.\n\nMake sure your brand is consistently described across:\n\n- Your website\n- LinkedIn\n- Crunchbase or relevant business directories\n- Wikipedia or Wikidata, if applicable\n- Google Business Profile\n- Industry directories\n- Review sites\n- Product marketplaces\n- Podcast appearances\n- Press mentions\n- Guest articles\n- Partner pages\n\nUse consistent language for your company, product category, founders, location, industry, and target customers.\n\nExample:\n\n> \u201cAcmePay is a payroll automation platform for U.S.-based small businesses.\u201d\n\nIf one site says you are \u201cHR software,\u201d another says \u201cpayments technology,\u201d and another says \u201ccompliance automation,\u201d AI systems may have a harder time identifying your category.\n\n---\n\n## 5. Use structured data\n\nStructured data helps machines understand your pages.\n\nAdd schema markup where relevant:\n\n- `Organization`\n- `Product`\n- `SoftwareApplication`\n- `Article`\n- `FAQPage`\n- `HowTo`\n- `Review`\n- `LocalBusiness`\n- `Person`\n- `BreadcrumbList`\n\nFor example, a software company should consider structured data for:\n\n- Product name\n- Description\n- Pricing\n- Reviews\n- Features\n- Application category\n- Operating system\n- Company information\n- Author information\n- FAQs\n\nThis helps both search engines and AI systems interpret your content more accurately.\n\n---\n\n## 6. Publish comparison and alternative pages\n\nAI answer engines often respond to commercial queries like:\n\n- \u201cBest CRM for startups\u201d\n- \u201cHubSpot alternatives\u201d\n- \u201cMailchimp vs ConvertKit\u201d\n- \u201cBest payroll software for contractors\u201d\n- \u201cWhich tool should I use for X?\u201d\n\nIf relevant, create honest pages such as:\n\n- `[Your product] vs [Competitor]`\n- `Best [category] tools for [audience]`\n- `Top alternatives to [competitor]`\n- `How to choose [software/category]`\n- `[Product category] buyer\u2019s guide`\n\nBe fair and specific. Do not just say you are better. Explain:\n\n- Who each product is best for\n- Pricing considerations\n- Key features\n- Limitations\n- Integrations\n- Use cases\n- Migration complexity\n\nGenerative engines are more likely to use balanced, useful comparison content than obvious sales copy.\n\n---\n\n## 7. Improve off-site mentions\n\nGEO is not only about your own website. AI systems learn from and retrieve information from many sources.\n\nTry to earn mentions from:\n\n- Industry publications\n- Analyst reports\n- Review sites\n- Podcasts\n- YouTube videos\n- Reddit discussions\n- Quora answers\n- Partner websites\n- Conference pages\n- News articles\n- Academic or technical sources, where relevant\n- High-quality listicles and buying guides\n\nFor commercial brands, appearing on reputable third-party pages can matter a lot because AI tools may trust those sources more than your own marketing pages.\n\n---\n\n## 8. Make your content easy to quote and summarize\n\nUse clear formatting.\n\nGood GEO-friendly formatting includes:\n\n- Short paragraphs\n- Descriptive headings\n- Bullet points\n- Tables\n- Definitions\n- Summaries\n- FAQs\n- Step-by-step instructions\n- Clear product descriptions\n- TL;DR sections\n- Author bios\n- Dates updated\n\nExample:\n\n```text\nSummary:\nAcmePay is a payroll automation tool for small U.S. businesses. It is best suited for teams with 5\u2013100 employees that need automated payroll, tax filing, contractor payments, and compliance reminders.\n```\n\nThis kind of copy is easier for AI systems to understand and reuse.\n\n---\n\n## 9. Include original insights\n\nAI tools often synthesize existing content. If your site only repeats generic information, there is little reason for an AI answer engine to rely on you.\n\nAdd things others do not have:\n\n- Proprietary data\n- Survey results\n- Customer data trends\n- Expert interviews\n- Benchmarks\n- Templates\n- Calculators\n- Frameworks\n- Original terminology\n- Industry reports\n- First-hand experience\n\nExample:\n\n> \u201cBased on an analysis of 2,500 invoices processed by small agencies, the average invoice approval delay was 4.8 business days.\u201d\n\nOriginal research makes your brand more cite-worthy.\n\n---\n\n## 10. Keep content fresh\n\nGenerative engines and search systems prefer current, accurate information for topics that change.\n\nUpdate pages when:\n\n- Pricing changes\n- Features change\n- Laws or regulations change\n- Competitors change\n- Product categories evolve\n- New statistics become available\n- New integrations launch\n\nInclude visible \u201clast updated\u201d dates where appropriate.\n\n---\n\n## 11. Optimize for conversational queries\n\nPeople ask AI tools questions differently than they type into Google.\n\nTraditional search query:\n\n> \u201cbest email marketing software small business\u201d\n\nAI-style query:\n\n> \u201cWhat email marketing software should I use for a small ecommerce brand with a limited budget and Shopify integration?\u201d\n\nCreate content that answers nuanced, natural-language questions.\n\nUse FAQ sections like:\n\n- What is the best option for beginners?\n- What is the cheapest option?\n- What is best for enterprise teams?\n- What should I use if I need HIPAA compliance?\n- What are the tradeoffs?\n- What should I avoid?\n- How do I choose?\n\n---\n\n## 12. Make sure AI crawlers can access your site\n\nIf you want AI systems and search engines to understand your content, avoid accidentally blocking important crawlers.\n\nCheck:\n\n- `robots.txt`\n- noindex tags\n- paywalls\n- heavy JavaScript rendering\n- broken canonical tags\n- blocked CSS or JS\n- slow page speed\n- inaccessible PDFs\n- poor mobile usability\n\nAlso make sure your important information is available in crawlable HTML, not only hidden in images, scripts, or gated downloads.\n\n---\n\n## 13. Build author and expert credibility\n\nFor topics where trust matters, AI systems and search engines may look for signs of expertise.\n\nAdd:\n\n- Named authors\n- Author bios\n- Credentials\n- Editorial policies\n- Sources\n- Reviewers\n- Case studies\n- Contact information\n- Company address\n- About page\n- Privacy policy\n- Terms of service\n\nThis is especially important for finance, health, law, cybersecurity, and technical topics.\n\n---\n\n# A practical GEO checklist\n\n## Website content\n\n- [ ] Create clear \u201cWhat is\u2026\u201d and \u201cHow to\u2026\u201d pages.\n- [ ] Add FAQs to important pages.\n- [ ] Use concise summaries near the top",
+                    "annotations": null
+                  }
+                ]
+              }
+            ],
+            "fan_out_queries": null
+          }
+        ]
+      }
+    ]
+  },
+  "parsed": {
+    "ok": true,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "cost": 0.08437,
+    "model": "gpt-5.5-2026-04-23",
+    "cited_paultakisaki": false,
+    "text_mentions_paultakisaki": false,
+    "domains": [],
+    "annotations": [],
+    "answer_excerpt": "**Generative Engine Optimization (GEO)** is the practice of making your brand, website, and content more likely to be discovered, understood, cited, or recommended by AI-powered answer engines such as ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews.\n\nIt is similar to SEO, but instead of optimizing only for traditional search rankings, GEO focuses on helping **generative AI systems understand your expertise and include your content in answers**.\n\n## GEO vs. SEO\n\n| SEO | GEO |\n|---|---|\n| Optimizes for search engine rankings | Optimizes for AI-generated answers |\n| Focuses on keywords, backlinks, technical SEO | Focuses on clarity, authority, citations, structured information, brand/entity recognition |\n| Goal: get users to click your result | Goal: get AI systems to mention, cite, summarize, or recommend you |\n| Content is written for search results pages | Content is written to be easily parsed, trusted, and reused by answer engines |\n\nGood GEO usually builds on good SEO. You should not abandon SEO; you should extend it.\n\n---\n\n# How to do Generative Engine Optimization\n\n## 1. Create content that directly answers real questions\n\nGenerative engines work well with clear, direct answers. Your pages should address the kinds of questions people actually ask AI tools.\n\nInstead of only writing:\n\n> \u201cOur platform helps teams improve productivity.\u201d\n\nWrite content that answers:\n\n- What is the best software for remote team productivity?\n- How does project management ",
+    "answer_chars": 9450,
+    "request": {
+      "user_prompt": "what is generative engine optimization and how do I do it?",
+      "model_name": "gpt-5.5",
+      "web_search": true,
+      "web_search_country_iso_code": "US"
+    },
+    "tag": "Q2",
+    "prompt": "what is generative engine optimization and how do I do it?",
+    "run_at": "2026-09-01T09:07:41-07:00",
+    "day": "2026-09-01",
+    "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-09-01-Q2.json"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "request": {
+    "user_prompt": "what is answer engine optimization and how do I do it?",
+    "model_name": "gpt-5.5",
+    "web_search": true,
+    "web_search_country_iso_code": "US"
+  },
+  "response": {
+    "version": "0.1.20260831",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "53.8205 sec.",
+    "cost": 0.11448,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "09011608-1059-0612-0000-2db360d4d920",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "53.7163 sec.",
+        "cost": 0.11448,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "ai_optimization",
+          "chat_gpt",
+          "llm_responses",
+          "live"
+        ],
+        "data": {
+          "api": "ai_optimization",
+          "function": "llm_responses",
+          "se": "chat_gpt",
+          "user_prompt": "what is answer engine optimization and how do I do it?",
+          "model_name": "gpt-5.5",
+          "web_search": true,
+          "web_search_country_iso_code": "US"
+        },
+        "result": [
+          {
+            "model_name": "gpt-5.5-2026-04-23",
+            "input_tokens": 8488,
+            "output_tokens": 2048,
+            "reasoning_tokens": 69,
+            "web_search": true,
+            "money_spent": 0.11388,
+            "datetime": "2026-09-01 16:09:10 +00:00",
+            "items": [
+              {
+                "type": "reasoning",
+                "sections": [
+                  {
+                    "type": "summary_text",
+                    "text": "**Exploring SEO updates**\n\nI need to find a current understanding of \"answer engine optimization\" because it's evolving and recommendations likely change. It seems I should use the web to search for the latest insights and guidance on this topic to ensure I\u2019m up to date. The information is crucial to provide a relevant answer. Let's go ahead and gather fresh perspectives on this emerging area. It\u2019ll help me give the user the best information possible!"
+                  }
+                ]
+              },
+              {
+                "type": "message",
+                "sections": [
+                  {
+                    "type": "text",
+                    "text": "**Answer Engine Optimization \u2014 AEO \u2014** is the practice of making your content easy for search engines, AI assistants, voice assistants, and generative search tools to understand, trust, extract, summarize, and cite as a direct answer.\n\nThink of it as **SEO for \u201canswer surfaces\u201d** like:\n\n- Google AI Overviews / AI Mode\n- Featured snippets\n- People Also Ask\n- Bing Copilot\n- Perplexity\n- ChatGPT with search/browsing\n- Voice assistants\n- Knowledge panels\n\nGoogle\u2019s own guidance says that many \u201cAEO/GEO hacks\u201d are not separate magic; the core is still creating useful, crawlable, high-quality content that satisfies search intent, with clear structure and strong trust signals. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n## The simple version\n\nTraditional SEO asks:\n\n> \u201cHow do I rank this page?\u201d\n\nAEO asks:\n\n> \u201cHow do I make my content the clearest, most trustworthy answer to a specific question?\u201d\n\n---\n\n# How to do Answer Engine Optimization\n\n## 1. Target questions, not just keywords\n\nBuild pages around the actual questions your audience asks.\n\nInstead of only targeting:\n\n> \u201cemail marketing software\u201d\n\nAlso target:\n\n> \u201cWhat is the best email marketing software for small ecommerce stores?\u201d  \n> \u201cHow much does email marketing software cost?\u201d  \n> \u201cMailchimp vs Klaviyo for Shopify: which is better?\u201d  \n> \u201cHow do I improve email open rates?\u201d\n\n**How to find questions:**\n\n- Google autocomplete\n- People Also Ask\n- Reddit / Quora / forums\n- Sales calls and customer support tickets\n- Search Console queries\n- Competitor FAQ sections\n- Perplexity / ChatGPT-style prompts your buyers might ask\n\nAEO works best when you answer **specific, natural-language questions**.\n\n---\n\n## 2. Put the direct answer near the top\n\nFor each important question, answer it clearly in the first few sentences.\n\nExample:\n\n**Question:** What is answer engine optimization?\n\n**Good AEO-style answer:**\n\n> Answer engine optimization is the process of structuring and improving content so that search engines and AI answer systems can use it as a direct, reliable answer to user questions.\n\nThen expand with details, examples, steps, and caveats.\n\nAvoid starting with long intros like:\n\n> \u201cIn today\u2019s digital landscape, businesses are constantly looking for new ways\u2026\u201d\n\nAI systems and featured snippets prefer content that gets to the point.\n\n---\n\n## 3. Use clear headings that match questions\n\nStructure your content so that each section answers one intent.\n\nGood headings:\n\n```text\nWhat is answer engine optimization?\nHow is AEO different from SEO?\nWhy does AEO matter?\nHow do you optimize for AI Overviews?\nWhat schema helps with AEO?\nHow do you measure AEO performance?\n```\n\nBad headings:\n\n```text\nThe Future of Digital Discovery\nUnlocking New Possibilities\nOur Thoughts\nFinal Reflections\n```\n\nClear headings help humans, search engines, and AI retrieval systems understand your content.\n\n---\n\n## 4. Write in extractable chunks\n\nAnswer engines often pull concise passages. Make your content easy to quote, summarize, or cite.\n\nUse:\n\n- Short paragraphs\n- Bullets\n- Numbered steps\n- Definitions\n- Tables\n- FAQs\n- Comparisons\n- Pros and cons\n- \u201cBest for\u201d summaries\n- Clear recommendations\n\nExample format:\n\n| Question | Short answer |\n|---|---|\n| Is AEO the same as SEO? | No. AEO is a subset or evolution of SEO focused on being selected as a direct answer. |\n| Does schema guarantee AI visibility? | No. Schema helps machines understand content, but it does not guarantee inclusion. |\n| Should every page have FAQs? | No. Add FAQs only when they answer real user questions. |\n\n---\n\n## 5. Demonstrate E-E-A-T: experience, expertise, authority, trust\n\nAEO depends heavily on trust. If AI systems are choosing one answer to summarize or cite, they need confidence.\n\nImprove trust by adding:\n\n- Author names and credentials\n- Real-world experience\n- Original examples\n- Case studies\n- Data\n- Sources\n- Dates updated\n- Company information\n- Editorial policies\n- Product screenshots\n- First-hand comparisons\n- Transparent limitations\n\nFor sensitive topics \u2014 health, finance, legal, safety \u2014 this matters even more.\n\nBad:\n\n> \u201cOur supplement cures fatigue.\u201d\n\nBetter:\n\n> \u201cSome users report improved energy, but fatigue can have many causes. Speak with a medical professional if symptoms persist.\u201d\n\n---\n\n## 6. Use structured data where appropriate\n\nSchema markup helps search engines understand the type of content on a page.\n\nUseful schema types can include:\n\n- `Article`\n- `FAQPage`\n- `HowTo`\n- `Product`\n- `Review`\n- `Organization`\n- `LocalBusiness`\n- `Person`\n- `BreadcrumbList`\n- `WebPage`\n\nSchema does **not** guarantee that Google, ChatGPT, Perplexity, or Bing will use your content. But it can make your content easier to parse and classify.\n\nUse schema only when it matches visible page content.\n\n---\n\n## 7. Build topical authority\n\nOne isolated blog post usually is not enough. Answer engines tend to favor sources that look authoritative across a topic.\n\nCreate content clusters.\n\nExample for a cybersecurity company:\n\n**Core page:**\n\n- What is phishing?\n\n**Supporting pages:**\n\n- Types of phishing attacks\n- How to identify phishing emails\n- Phishing examples\n- Phishing prevention checklist\n- Phishing training for employees\n- Best phishing simulation tools\n- Phishing vs spear phishing\n- What to do after clicking a phishing link\n\nThen link these pages together logically.\n\nThe goal is to become a reliable source on the whole topic, not just one keyword.\n\n---\n\n## 8. Optimize for comparison and recommendation queries\n\nAI answer engines are often used for decision-making.\n\nCreate content that answers:\n\n- \u201cBest X for Y\u201d\n- \u201cX vs Y\u201d\n- \u201cAlternatives to X\u201d\n- \u201cIs X worth it?\u201d\n- \u201cHow much does X cost?\u201d\n- \u201cWhat are the pros and cons of X?\u201d\n- \u201cWho should use X?\u201d\n- \u201cWho should not use X?\u201d\n\nExample:\n\n```text\nBest CRM for solo consultants\n\nShort answer:\nThe best CRM for solo consultants is usually a lightweight CRM with contact tracking, follow-up reminders, email integration, and simple pipeline management. HubSpot, Pipedrive, and Less Annoying CRM are common options depending on budget and complexity.\n```\n\nThen explain your criteria.\n\n---\n\n## 9. Make your facts easy to verify\n\nAEO rewards content that can be trusted and corroborated.\n\nAdd:\n\n- Citations\n- Links to original sources\n- Data tables\n- Methodology\n- Publication dates\n- Update dates\n- Clear definitions\n- Named experts\n- Transparent criteria\n\nFor example, if you publish \u201cbest software\u201d lists, explain:\n\n- How you evaluated products\n- Whether you tested them\n- What criteria you used\n- Whether affiliate links influence rankings\n- When the page was last updated\n\nThis helps both users and answer systems.\n\n---\n\n## 10. Keep important information crawlable\n\nDo not hide key answers inside:\n\n- Images only\n- Videos without transcripts\n- PDFs only\n- JavaScript-heavy components that search engines may not render well\n- Gated content\n- Accordions that are poorly implemented\n- Interactive tools with no text equivalent\n\nGoogle\u2019s guidance for generative AI search emphasizes that standard search fundamentals still matter: make content useful, accessible, crawlable, and eligible to appear in Search. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n---\n\n## 11. Optimize entity signals\n\nAnswer engines need to understand **who you are**, **what you offer**, and **what topics you are associated with**.\n\nMake sure your brand/entity information is consistent across:\n\n- Your website\n- About page\n- Contact page\n- Author bios\n- LinkedIn\n- Google Business Profile\n- Crunchbase / Wikidata if relevant\n- Review platforms\n- Industry directories\n- Social profiles\n\nFor a business, make clear:\n\n- Company name\n- Product names\n- Category\n- Audience served\n- Locations\n- Founders or leadership\n- Pricing, if applicable\n- Use cases\n- Integrations\n- Differentiators\n\n---\n\n## 12. Refresh content regularly\n\nAnswer engines need current information, especially for:\n\n- Pricing\n- Product comparisons\n- Legal topics\n- Medical topics\n- Software features\n- Statistics\n- Market data\n- \u201cBest tools\u201d pages\n- Local business details\n\nAdd visible \u201cLast updated\u201d dates when useful.\n\nAlso update old claims, screenshots, product names, and links.\n\n---\n\n# A practical AEO page template\n\nUse this structure for many informational pages:\n\n```text\nH1: What is [topic]?\n\nShort answer:\n[2\u20134 sentence direct answer]\n\nKey takeaways:\n- [Point 1]\n- [Point 2]\n- [Point 3]\n\nWhat [topic] means\n[Clear explanation]\n\nHow [topic] works\n[Step-by-step or process explanation]\n\nWhy [topic] matters\n[Benefits / risks / use cases]\n\nExamples of [topic]\n[Concrete examples]\n\n[Topic] vs [related concept]\n[Comparison table]\n\nHow to do [topic]\n[Actionable steps]\n\nCommon mistakes\n[Bullet list]\n\nFAQs\n[Concise question-and-answer format]\n\nSources / methodology\n[If applicable]\n```\n\n---\n\n",
+                    "annotations": [
+                      {
+                        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai",
+                        "start_index": 677,
+                        "end_index": 815,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))"
+                      },
+                      {
+                        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai",
+                        "start_index": 7239,
+                        "end_index": 7377,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "fan_out_queries": [
+              "Answer Engine Optimization AEO definition how to optimize official Google AI Overviews Bing ChatGPT search documentation"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "parsed": {
+    "ok": true,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "cost": 0.11448,
+    "model": "gpt-5.5-2026-04-23",
+    "cited_paultakisaki": false,
+    "text_mentions_paultakisaki": false,
+    "domains": [
+      "developers.google.com"
+    ],
+    "annotations": [
+      {
+        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+      },
+      {
+        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+      }
+    ],
+    "answer_excerpt": "**Answer Engine Optimization \u2014 AEO \u2014** is the practice of making your content easy for search engines, AI assistants, voice assistants, and generative search tools to understand, trust, extract, summarize, and cite as a direct answer.\n\nThink of it as **SEO for \u201canswer surfaces\u201d** like:\n\n- Google AI Overviews / AI Mode\n- Featured snippets\n- People Also Ask\n- Bing Copilot\n- Perplexity\n- ChatGPT with search/browsing\n- Voice assistants\n- Knowledge panels\n\nGoogle\u2019s own guidance says that many \u201cAEO/GEO hacks\u201d are not separate magic; the core is still creating useful, crawlable, high-quality content that satisfies search intent, with clear structure and strong trust signals. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n## The simple version\n\nTraditional SEO asks:\n\n> \u201cHow do I rank this page?\u201d\n\nAEO asks:\n\n> \u201cHow do I make my content the clearest, most trustworthy answer to a specific question?\u201d\n\n---\n\n# How to do Answer Engine Optimization\n\n## 1. Target questions, not just keywords\n\nBuild pages around the actual questions your audience asks.\n\nInstead of only targeting:\n\n> \u201cemail marketing software\u201d\n\nAlso target:\n\n> \u201cWhat is the best email marketing software for small ecommerce stores?\u201d  \n> \u201cHow much does email marketing software cost?\u201d  \n> \u201cMailchimp vs Klaviyo for Shopify: which is better?\u201d  \n> \u201cHow do I improve email open rates?\u201d\n\n**How to find questions:**\n\n- Google autocomplete\n- People ",
+    "answer_chars": 8961,
+    "request": {
+      "user_prompt": "what is answer engine optimization and how do I do it?",
+      "model_name": "gpt-5.5",
+      "web_search": true,
+      "web_search_country_iso_code": "US"
+    },
+    "tag": "S1",
+    "prompt": "what is answer engine optimization and how do I do it?",
+    "run_at": "2026-09-01T09:09:11-07:00",
+    "day": "2026-09-01",
+    "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-09-01-S1.json"
+  }
+}
