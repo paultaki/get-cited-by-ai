@@ -1,0 +1,142 @@
+{
+  "request": {
+    "user_prompt": "what is generative engine optimization and how do I do it?",
+    "model_name": "gpt-5.5",
+    "web_search": true,
+    "web_search_country_iso_code": "US"
+  },
+  "response": {
+    "version": "0.1.20260902",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "30.9436 sec.",
+    "cost": 0.12669,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "09021612-1059-0612-0000-b1d86bdda353",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "30.8897 sec.",
+        "cost": 0.12669,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "ai_optimization",
+          "chat_gpt",
+          "llm_responses",
+          "live"
+        ],
+        "data": {
+          "api": "ai_optimization",
+          "function": "llm_responses",
+          "se": "chat_gpt",
+          "user_prompt": "what is generative engine optimization and how do I do it?",
+          "model_name": "gpt-5.5",
+          "web_search": true,
+          "web_search_country_iso_code": "US"
+        },
+        "result": [
+          {
+            "model_name": "gpt-5.5-2026-04-23",
+            "input_tokens": 10930,
+            "output_tokens": 2048,
+            "reasoning_tokens": 117,
+            "web_search": true,
+            "money_spent": 0.12609,
+            "datetime": "2026-09-02 16:13:30 +00:00",
+            "items": [
+              {
+                "type": "reasoning",
+                "sections": [
+                  {
+                    "type": "summary_text",
+                    "text": "**Exploring SEO recommendations**\n\nI\u2019m thinking we can provide static recommendations, but incorporating current SEO strategies could be beneficial too, though it might not be a total necessity. I\u2019ve noticed the term \"GEO\" is emerging and might have shifted, so I need to browse for niche or emerging trends. I should also consider citing reliable sources. Maybe I could use Google Docs to compile AI overviews and search for more relevant information!"
+                  }
+                ]
+              },
+              {
+                "type": "message",
+                "sections": [
+                  {
+                    "type": "text",
+                    "text": "**Generative Engine Optimization, or GEO,** is the practice of making your brand, website, products, and expertise more likely to be **found, understood, cited, summarized, or recommended by AI answer engines** such as Google AI Overviews/AI Mode, ChatGPT Search, Perplexity, Copilot, and similar systems.\n\nIn plain English: **SEO helps you rank in search results. GEO helps you show up inside AI-generated answers.**\n\nGoogle\u2019s current guidance is important here: for Google Search\u2019s AI features, the fundamentals of good SEO still matter, and Google explicitly warns against chasing \u201cAEO/GEO hacks\u201d like unnecessary `llms.txt` files or artificial tactics. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n## How GEO differs from traditional SEO\n\n| Traditional SEO | Generative Engine Optimization |\n|---|---|\n| Goal: rank pages in search results | Goal: be cited, summarized, or recommended in AI answers |\n| Focuses on keywords, links, crawlability, relevance | Focuses on clarity, authority, answer quality, entity recognition, structured information |\n| Users click a result and read | Users may get a synthesized answer before clicking |\n| Success metric: rankings, impressions, traffic | Success metric: AI mentions, citations, referral traffic, share of answer, accuracy of representation |\n\nGEO does **not** replace SEO. It sits on top of SEO. If your site is not crawlable, useful, trustworthy, or authoritative, AI systems are less likely to use it as a source.\n\n---\n\n# How to do GEO\n\n## 1. Start with solid SEO fundamentals\n\nBefore worrying about AI engines, make sure your site is technically sound.\n\nDo this:\n\n- Make pages crawlable and indexable.\n- Use descriptive title tags and headings.\n- Avoid hiding key content behind JavaScript that crawlers may not render well.\n- Improve page speed and mobile usability.\n- Use internal links to connect related pages.\n- Keep your XML sitemap updated.\n- Make sure important pages are not blocked in `robots.txt`.\n- Use canonical tags correctly.\n- Maintain a clean site architecture.\n\nFor ChatGPT Search specifically, OpenAI says that if you want your content eligible for summaries and snippets in ChatGPT, you should make sure you are not blocking **OAI-SearchBot**. ([help.openai.com](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq%23%3A~%3Atext%3DChatGPT%20automatically%20includes%20the%20UTM%20parameter%20utm_source%3Dchatgpt.com%20in%20referral%20URLs%2C%20enabling%20clear%20tracking%20and%20analysis%20of%20inbound%20traffic%20from%20ChatGPT%20search%20results?utm_source=openai))\n\n---\n\n## 2. Write content that answers real questions clearly\n\nAI systems tend to surface content that can be easily understood, extracted, and summarized.\n\nInstead of writing only for keywords like:\n\n> \u201cproject management software small business\u201d\n\nwrite pages that directly answer questions like:\n\n- \u201cWhat is the best project management software for small businesses?\u201d\n- \u201cHow do I choose project management software?\u201d\n- \u201cWhat is the difference between Asana, Trello, ClickUp, and Monday.com?\u201d\n- \u201cWhich project management tool is best for agencies?\u201d\n\nGood GEO content usually has:\n\n- A short direct answer near the top.\n- Clear headings.\n- Definitions.\n- Step-by-step explanations.\n- Comparisons.\n- Pros and cons.\n- Pricing or selection criteria where relevant.\n- FAQs.\n- Specific examples.\n- Evidence, data, or expert commentary.\n\nThink: **Could an AI system safely quote or summarize this page to answer a user\u2019s question?**\n\n---\n\n## 3. Build topical authority, not just isolated articles\n\nGenerative engines often synthesize from multiple sources. A single thin article is less useful than a cluster of authoritative pages around a topic.\n\nFor example, if you sell accounting software, you might create a content hub around:\n\n- \u201cSmall business accounting software\u201d\n- \u201cBookkeeping for LLCs\u201d\n- \u201cCash-basis vs. accrual accounting\u201d\n- \u201cHow to prepare for tax season\u201d\n- \u201cBest accounting software for freelancers\u201d\n- \u201cQuickBooks alternatives\u201d\n- \u201cAccounting software comparison chart\u201d\n- \u201cAccounting software pricing guide\u201d\n\nThen internally link those pages together.\n\nThe goal is to make your website look like a **credible, comprehensive source** on a subject, not just a site chasing one keyword.\n\n---\n\n## 4. Make your brand/entity easy to understand\n\nAI systems need to understand who you are, what you do, who you serve, and why you are credible.\n\nMake sure your website clearly states:\n\n- Company name.\n- Product or service category.\n- Target audience.\n- Location, if relevant.\n- Founders or leadership.\n- Credentials.\n- Industries served.\n- Unique differentiators.\n- Pricing model, if applicable.\n- Customer types.\n- Case studies.\n- Reviews or testimonials.\n- Contact information.\n\nCreate or improve pages like:\n\n- About page.\n- Product/service pages.\n- Comparison pages.\n- Customer stories.\n- Author bios.\n- Press page.\n- FAQ page.\n- Contact page.\n- \u201cWhat we do\u201d page.\n\nFor example, don\u2019t just say:\n\n> \u201cWe help teams work better.\u201d\n\nSay:\n\n> \u201cAcme is project management software for 10\u2013100 person marketing agencies. It helps teams manage client campaigns, approvals, deadlines, files, and recurring workflows.\u201d\n\nThat is much easier for both humans and AI systems to understand.\n\n---\n\n## 5. Add structured data\n\nSchema markup does not guarantee AI visibility, but it helps search engines understand your content.\n\nUseful schema types include:\n\n- `Organization`\n- `LocalBusiness`\n- `Product`\n- `Service`\n- `FAQPage`\n- `Article`\n- `HowTo`\n- `Review`\n- `Person`\n- `BreadcrumbList`\n- `SoftwareApplication`\n- `Event`, if relevant\n\nFor example, a software company should consider structured data for the organization, product/software application, reviews, FAQs, and articles.\n\n---\n\n## 6. Publish original, evidence-backed content\n\nAI engines are more likely to rely on content that appears trustworthy and useful.\n\nGood GEO-friendly content includes:\n\n- Original research.\n- Benchmarks.\n- Surveys.\n- Data studies.\n- Expert interviews.\n- First-hand experience.\n- Case studies.\n- Screenshots.\n- Real examples.\n- Product comparisons.\n- Methodology explanations.\n\nWeak content includes:\n\n- Generic AI-written blog posts.\n- Rewritten competitor articles.\n- Fluffy intros.\n- Unsupported claims.\n- Pages created only to target keywords.\n- Content that says the obvious without adding anything new.\n\nGoogle\u2019s guidance on generative AI content is also relevant: using AI-generated content is not automatically against Google\u2019s rules, but producing large volumes of low-value content can violate spam policies. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=en&utm_source=openai))\n\n---\n\n## 7. Create pages AI systems can cite\n\nA good GEO page is easy to quote, summarize, and attribute.\n\nUse formats like:\n\n### Direct answer block\n\n> **Short answer:** Generative engine optimization is the process of improving your content and brand presence so AI answer engines can understand, trust, and cite your information.\n\n### Comparison tables\n\n| Feature | Product A | Product B | Product C |\n|---|---|---|---|\n\n### Decision frameworks\n\n> Choose X if you need speed.  \n> Choose Y if you need customization.  \n> Choose Z if you need enterprise controls.\n\n### FAQs\n\n- What is this?\n- Who is it for?\n- How much does it cost?\n- What are the alternatives?\n- What are the pros and cons?\n- How does it compare to competitors?\n\n### Lists with context\n\nNot just \u201c10 best tools,\u201d but explain **why** each tool belongs there and who each is best for.\n\n---\n\n## 8. Get mentioned on reputable third-party sites\n\nAI systems may use information from across the web, not just your own site. Your brand should appear consistently on trusted external sources.\n\nDepending on your business, this could include:\n\n- Industry publications.\n- Review sites.\n- Comparison sites.\n- Directories.\n- Podcasts.\n- Research reports.\n- News articles.\n- Partner pages.\n- Association websites.\n- Wikipedia/Wikidata, where appropriate and legitimate.\n- GitHub, if you have technical products.\n- G2, Capterra, Trustpilot, Yelp, TripAdvisor, etc., depending on your category.\n\nThe point is not to spam the web with mentions. The point is to create a consistent, credible footprint that confirms who you are and why you matter.\n\n---\n\n## 9. Optimize for \u201cbest,\u201d \u201ccompare,\u201d and \u201crecommendation\u201d queries\n\nMany AI-search interactions are recommendation-style prompts, such as:\n\n- \u201cWhat is the best CRM for startups?\u201d\n- \u201cWhich payroll software is best for restaurants?\u201d\n- \u201cCompare HubSpot and Salesforce.\u201d\n- \u201cWhat are the top agencies for B2B SaaS SEO?\u201d\n- \u201cWhat should I use instead of Shopify?\u201d\n- \u201cWho are the leading experts in conversion optimization?\u201d\n\nCreate content that helps AI systems answer those questions fairly.\n\nExamples:\n\n- \u201cBest [category] for [audience]\u201d\n- \u201c[Your brand] vs. [competitor]\u201d\n- \u201c[Competitor] alternatives\u201d\n- \u201cHow to choose a [category]\u201d\n- \u201cTop [category] tools for [use case]\u201d\n- \u201c[Category] pricing guide\u201d\n- \u201c[Category] implementation checklist\u201d\n\nBe honest. If your product is not best for everyone, say who it is and is not for. That specificity can make your content more useful.\n\n---\n\n## 10. Keep facts consistent everywhere\n\nIf your website says one thing, your LinkedIn says",
+                    "annotations": [
+                      {
+                        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai",
+                        "start_index": 657,
+                        "end_index": 795,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))"
+                      },
+                      {
+                        "title": "Publishers and Developers - FAQ | OpenAI Help Center",
+                        "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq%23%3A~%3Atext%3DChatGPT%20automatically%20includes%20the%20UTM%20parameter%20utm_source%3Dchatgpt.com%20in%20referral%20URLs%2C%20enabling%20clear%20tracking%20and%20analysis%20of%20inbound%20traffic%20from%20ChatGPT%20search%20results?utm_source=openai",
+                        "start_index": 2314,
+                        "end_index": 2663,
+                        "text": "([help.openai.com](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq%23%3A~%3Atext%3DChatGPT%20automatically%20includes%20the%20UTM%20parameter%20utm_source%3Dchatgpt.com%20in%20referral%20URLs%2C%20enabling%20clear%20tracking%20and%20analysis%20of%20inbound%20traffic%20from%20ChatGPT%20search%20results?utm_source=openai))"
+                      },
+                      {
+                        "title": "Google Search's Guidance on Generative AI Content on Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=en&utm_source=openai",
+                        "start_index": 6659,
+                        "end_index": 6785,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=en&utm_source=openai))"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "fan_out_queries": [
+              "Generative Engine Optimization GEO what is how to do it",
+              "Google AI Overviews SEO guidance official",
+              "OpenAI ChatGPT Search website owners crawler OAI-SearchBot official"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "parsed": {
+    "ok": true,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "cost": 0.12669,
+    "model": "gpt-5.5-2026-04-23",
+    "cited_paultakisaki": false,
+    "text_mentions_paultakisaki": false,
+    "domains": [
+      "developers.google.com",
+      "help.openai.com"
+    ],
+    "annotations": [
+      {
+        "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai"
+      },
+      {
+        "title": "Publishers and Developers - FAQ | OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq%23%3A~%3Atext%3DChatGPT%20automatically%20includes%20the%20UTM%20parameter%20utm_source%3Dchatgpt.com%20in%20referral%20URLs%2C%20enabling%20clear%20tracking%20and%20analysis%20of%20inbound%20traffic%20from%20ChatGPT%20search%20results?utm_source=openai"
+      },
+      {
+        "title": "Google Search's Guidance on Generative AI Content on Your Website | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=en&utm_source=openai"
+      }
+    ],
+    "answer_excerpt": "**Generative Engine Optimization, or GEO,** is the practice of making your brand, website, products, and expertise more likely to be **found, understood, cited, summarized, or recommended by AI answer engines** such as Google AI Overviews/AI Mode, ChatGPT Search, Perplexity, Copilot, and similar systems.\n\nIn plain English: **SEO helps you rank in search results. GEO helps you show up inside AI-generated answers.**\n\nGoogle\u2019s current guidance is important here: for Google Search\u2019s AI features, the fundamentals of good SEO still matter, and Google explicitly warns against chasing \u201cAEO/GEO hacks\u201d like unnecessary `llms.txt` files or artificial tactics. ([developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?authuser=4&hl=en&utm_source=openai))\n\n## How GEO differs from traditional SEO\n\n| Traditional SEO | Generative Engine Optimization |\n|---|---|\n| Goal: rank pages in search results | Goal: be cited, summarized, or recommended in AI answers |\n| Focuses on keywords, links, crawlability, relevance | Focuses on clarity, authority, answer quality, entity recognition, structured information |\n| Users click a result and read | Users may get a synthesized answer before clicking |\n| Success metric: rankings, impressions, traffic | Success metric: AI mentions, citations, referral traffic, share of answer, accuracy of representation |\n\nGEO does **not** replace SEO. It sits on top of SEO. If your site is not crawlable, useful, trustworthy, or au",
+    "answer_chars": 9361,
+    "request": {
+      "user_prompt": "what is generative engine optimization and how do I do it?",
+      "model_name": "gpt-5.5",
+      "web_search": true,
+      "web_search_country_iso_code": "US"
+    },
+    "tag": "Q2",
+    "prompt": "what is generative engine optimization and how do I do it?",
+    "run_at": "2026-09-02T09:13:30-07:00",
+    "day": "2026-09-02",
+    "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-09-02-Q2.json"
+  }
+}

@@ -36,7 +36,7 @@
 
 | # | Prediction (band) | Refutation | Score-by | Outcome | Rules tested |
 |---|---|---|---|---|---|
-| 1 | Across the 3 baseline queries × ≥3 runs (≥9 cells), ChatGPT's grounded answers cite **paultakisaki.com in 0 cells** at the score-by date (unchanged from the 0/9 baseline) | **≥1 cell** cites paultakisaki.com. Per G8/G5 a refutation does NOT auto-credit the vocab floor — exogenous demand, time, and recrawl must be ruled out first — but ≥1 falsifies the strict "floor does nothing here" claim | 2026-08-31 | UNSCORED | A1, C1, B3 — is on-page vocabulary a floor or a lever, tested on the author's own hub |
+| 1 | Across the 3 baseline queries × ≥3 runs (≥9 cells), ChatGPT's grounded answers cite **paultakisaki.com in 0 cells** at the score-by date (unchanged from the 0/9 baseline) | **≥1 cell** cites paultakisaki.com. Per G8/G5 a refutation does NOT auto-credit the vocab floor — exogenous demand, time, and recrawl must be ruled out first — but ≥1 falsifies the strict "floor does nothing here" claim | 2026-08-31 | HOLDS | A1, C1, B3 — is on-page vocabulary a floor or a lever, tested on the author's own hub |
 
 - **Supplementary (recorded, NOT scored — no rigorous pre-baseline):** run the same
   battery for "answer engine optimization" and "AI SEO" queries (the newly added
@@ -86,3 +86,20 @@
   ≥3 days) before Outcome. Day 3 scheduled 2026-09-02 09:05 PT. Band untouched.
   No pending_ack final nag until finalized.
 
+
+- **Scored 2026-08-31 (battery closed 2026-09-02):** Outcome **HOLDS**. Tally **0/9** scored cells cited paultakisaki.com across days 2026-08-31, 2026-09-01, 2026-09-02. Instrument: DataForSEO ChatGPT llm_responses/live, US web_search, model gpt-5.5. Band untouched.
+  Matrix:
+  - 2026-08-31: Q1=N[developers.google.com,help.openai.com,bing.com]; Q2=N[developers.google.com,arxiv.org,assets.ctfassets.net]; Q3=N[developers.google.com,bing.com]
+  - 2026-09-01: Q1=N[help-lb.openai.com,developers.google.com,bing.com]; Q2=N[-]; Q3=N[developers.google.com,bing.com,help.openai.com,aixiv.science]
+  - 2026-09-02: Q1=N[developers.google.com,help.openai.com,bing.com]; Q2=N[developers.google.com,help.openai.com]; Q3=N[developers.google.com,bing.com,ahrefs.com]
+  Supplementary (not scored):
+  - 2026-08-31 S1: cited=N; domains=developers.google.com,bing.com,help.openai.com
+  - 2026-08-31 S2: cited=N; domains=developers.google.com,bing.com
+  - 2026-08-31 SMOKE: cited=N; domains=100questionsai.com
+  - 2026-09-01 S1: cited=N; domains=developers.google.com
+  - 2026-09-01 S2: cited=N; domains=developers.google.com,bing.com
+  - 2026-09-01 SMOKE: cited=N; domains=developers.google.com
+  - 2026-09-02 S1: cited=N; domains=aisearchvisibility.ai
+  - 2026-09-02 S2: cited=N; domains=developers.google.cn,developers.google.com,help.openai.com,bing.com,blogs.bing.com
+  - 2026-09-02 SMOKE: cited=N; domains=developers.google.com
+  Confound check (G8/G5): No paultakisaki.com citations in any scored cell, so no exogenous-demand/time/recrawl attribution required for a REFUTED path. HOLDS is consistent with floor-not-lever null. Bing AI Performance (secondary): paultakisaki.com verified; hub path not in pages export (only /insights/invisible-resume.html listed); ai_search_queries status No data available as of 2026-07-19 pull field. Live copy gate passed 2026-08-31; ~6 weeks post-edit; Bing site search returned the live AEO/AI SEO phrase. 

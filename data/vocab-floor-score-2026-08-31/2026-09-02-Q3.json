@@ -1,0 +1,143 @@
+{
+  "request": {
+    "user_prompt": "does adding schema markup help my site get cited by AI?",
+    "model_name": "gpt-5.5",
+    "web_search": true,
+    "web_search_country_iso_code": "US"
+  },
+  "response": {
+    "version": "0.1.20260902",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "14.7987 sec.",
+    "cost": 0.092985,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "09021613-1059-0612-0000-2cb59a895f20",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "14.7567 sec.",
+        "cost": 0.092985,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "ai_optimization",
+          "chat_gpt",
+          "llm_responses",
+          "live"
+        ],
+        "data": {
+          "api": "ai_optimization",
+          "function": "llm_responses",
+          "se": "chat_gpt",
+          "user_prompt": "does adding schema markup help my site get cited by AI?",
+          "model_name": "gpt-5.5",
+          "web_search": true,
+          "web_search_country_iso_code": "US"
+        },
+        "result": [
+          {
+            "model_name": "gpt-5.5-2026-04-23",
+            "input_tokens": 10921,
+            "output_tokens": 926,
+            "reasoning_tokens": 104,
+            "web_search": true,
+            "money_spent": 0.092385,
+            "datetime": "2026-09-02 16:13:47 +00:00",
+            "items": [
+              {
+                "type": "reasoning",
+                "sections": [
+                  {
+                    "type": "summary_text",
+                    "text": "**Considering citation sources**\n\nI need to think about how to answer without relying on the web for current information. I guess SEO could shift, but it\u2019s not guaranteed. The situation with \"AI citations\" is kind of unstable right now. It might be useful to search Google for official information or even check OpenAI for reliable sources. I\u2019ll need to consider citations carefully since they\u2019re crucial for accuracy!"
+                  }
+                ]
+              },
+              {
+                "type": "message",
+                "sections": [
+                  {
+                    "type": "text",
+                    "text": "**Short answer: yes, but mostly indirectly \u2014 schema markup is not a magic \u201cget cited by AI\u201d switch.**\n\nAdding schema can help AI/search systems understand your content, entities, authorship, products, FAQs, reviews, locations, and relationships more clearly. But current evidence suggests **schema alone does not reliably increase AI citations** in Google AI Overviews, AI Mode, ChatGPT, Perplexity, or Copilot.\n\nGoogle\u2019s own documentation frames structured data as a way to help Google understand pages and make them eligible for rich results, not as a guaranteed ranking or AI-citation factor. ([developers.google.com](https://developers.google.com/search/docs/appearance/structured-data/search-gallery?authuser=2&utm_source=openai)) Bing similarly says structured data gives Bing valuable information about the type of content on a site, while its AI reporting focuses on broader citation/visibility patterns rather than schema as a direct lever. ([bing.com](https://www.bing.com/webmasters/help/marking-up-your-site-with-structured-data-3a93e731?country=69&utm_source=openai))\n\nThe practical view:\n\n### What schema **can** help with\n\n- **Clarifying entities**: Organization, Person, Product, LocalBusiness, Article, FAQPage, HowTo, Event, Review, etc.\n- **Making your content easier to parse** for crawlers.\n- **Supporting rich results** in traditional search.\n- **Reinforcing trust signals** like author, datePublished, dateModified, sameAs, logo, address, aggregateRating, offers, and citations.\n- **Reducing ambiguity** about who you are, what you sell, where you operate, and which facts belong to which page.\n\n### What schema probably **won\u2019t** do by itself\n\n- Guarantee that ChatGPT, Gemini, Perplexity, or Copilot cites your page.\n- Make thin content cite-worthy.\n- Override weak authority, poor indexing, outdated content, or lack of backlinks/mentions.\n- Replace clear, visible, well-structured page content.\n\nA 2026 Ahrefs study tracking 1,885 pages that added JSON-LD found that AI citations barely moved after schema implementation, suggesting schema is more of a supporting signal than a direct citation trigger. ([ahrefs.com](https://ahrefs.com/blog/schema-ai-citations/?utm_source=openai))\n\n### Best approach\n\nUse schema, but treat it as **technical hygiene**, not the main AI SEO strategy.\n\nFor better chances of being cited by AI systems, prioritize:\n\n1. **Answer-first content**  \n   Put concise, direct answers near the top of the page.\n\n2. **Strong topical authority**  \n   Cover the topic better than competitors, with original data, examples, pricing, comparisons, or expert commentary.\n\n3. **Clear sourceability**  \n   Include facts, dates, definitions, stats, author bios, citations, and update dates.\n\n4. **Indexability**  \n   Make sure important pages are crawlable, not blocked by robots.txt, noindex, heavy JS, or poor internal linking.\n\n5. **Entity consistency**  \n   Use the same brand name, address, author names, product names, social profiles, and organization info across your site and third-party profiles.\n\n6. **Relevant schema types**  \n   Add schema that matches the actual page content \u2014 don\u2019t spam every schema type.\n\n### Schema I\u2019d usually add\n\nFor most sites:\n\n- `Organization` or `LocalBusiness`\n- `WebSite`\n- `BreadcrumbList`\n- `Article` or `BlogPosting`\n- `Product` where relevant\n- `FAQPage` only if FAQs are visible on the page\n- `HowTo` only for real step-by-step guides\n- `Person` for expert authors\n- `Review` / `AggregateRating` only when valid and compliant\n- `sameAs` links to authoritative profiles\n\n### Bottom line\n\n**Yes, add schema \u2014 it helps machines understand your site. But no, schema alone probably won\u2019t make AI cite you.** The bigger drivers are crawlability, authority, clear answers, original information, topical relevance, and trustworthy visible content.",
+                    "annotations": [
+                      {
+                        "title": "Structured Data Markup that Google Search Supports | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+                        "url": "https://developers.google.com/search/docs/appearance/structured-data/search-gallery?authuser=2&utm_source=openai",
+                        "start_index": 596,
+                        "end_index": 735,
+                        "text": "([developers.google.com](https://developers.google.com/search/docs/appearance/structured-data/search-gallery?authuser=2&utm_source=openai))"
+                      },
+                      {
+                        "title": "Marking Up Your Site with Structured Data - Bing Webmaster Tools",
+                        "url": "https://www.bing.com/webmasters/help/marking-up-your-site-with-structured-data-3a93e731?country=69&utm_source=openai",
+                        "start_index": 950,
+                        "end_index": 1080,
+                        "text": "([bing.com](https://www.bing.com/webmasters/help/marking-up-your-site-with-structured-data-3a93e731?country=69&utm_source=openai))"
+                      },
+                      {
+                        "title": "We Tracked 1,885 Pages Adding Schema. AI Citations Barely Moved.",
+                        "url": "https://ahrefs.com/blog/schema-ai-citations/?utm_source=openai",
+                        "start_index": 2130,
+                        "end_index": 2208,
+                        "text": "([ahrefs.com](https://ahrefs.com/blog/schema-ai-citations/?utm_source=openai))"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "fan_out_queries": [
+              "Google structured data AI Overviews schema markup citations",
+              "Google Search Central structured data guidelines structured data eligible rich results",
+              "Bing Webmaster Guidelines structured data answers AI"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "parsed": {
+    "ok": true,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "cost": 0.092985,
+    "model": "gpt-5.5-2026-04-23",
+    "cited_paultakisaki": false,
+    "text_mentions_paultakisaki": false,
+    "domains": [
+      "developers.google.com",
+      "bing.com",
+      "ahrefs.com"
+    ],
+    "annotations": [
+      {
+        "title": "Structured Data Markup that Google Search Supports | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "url": "https://developers.google.com/search/docs/appearance/structured-data/search-gallery?authuser=2&utm_source=openai"
+      },
+      {
+        "title": "Marking Up Your Site with Structured Data - Bing Webmaster Tools",
+        "url": "https://www.bing.com/webmasters/help/marking-up-your-site-with-structured-data-3a93e731?country=69&utm_source=openai"
+      },
+      {
+        "title": "We Tracked 1,885 Pages Adding Schema. AI Citations Barely Moved.",
+        "url": "https://ahrefs.com/blog/schema-ai-citations/?utm_source=openai"
+      }
+    ],
+    "answer_excerpt": "**Short answer: yes, but mostly indirectly \u2014 schema markup is not a magic \u201cget cited by AI\u201d switch.**\n\nAdding schema can help AI/search systems understand your content, entities, authorship, products, FAQs, reviews, locations, and relationships more clearly. But current evidence suggests **schema alone does not reliably increase AI citations** in Google AI Overviews, AI Mode, ChatGPT, Perplexity, or Copilot.\n\nGoogle\u2019s own documentation frames structured data as a way to help Google understand pages and make them eligible for rich results, not as a guaranteed ranking or AI-citation factor. ([developers.google.com](https://developers.google.com/search/docs/appearance/structured-data/search-gallery?authuser=2&utm_source=openai)) Bing similarly says structured data gives Bing valuable information about the type of content on a site, while its AI reporting focuses on broader citation/visibility patterns rather than schema as a direct lever. ([bing.com](https://www.bing.com/webmasters/help/marking-up-your-site-with-structured-data-3a93e731?country=69&utm_source=openai))\n\nThe practical view:\n\n### What schema **can** help with\n\n- **Clarifying entities**: Organization, Person, Product, LocalBusiness, Article, FAQPage, HowTo, Event, Review, etc.\n- **Making your content easier to parse** for crawlers.\n- **Supporting rich results** in traditional search.\n- **Reinforcing trust signals** like author, datePublished, dateModified, sameAs, logo, address, aggregateRating, offers, and citations",
+    "answer_chars": 3827,
+    "request": {
+      "user_prompt": "does adding schema markup help my site get cited by AI?",
+      "model_name": "gpt-5.5",
+      "web_search": true,
+      "web_search_country_iso_code": "US"
+    },
+    "tag": "Q3",
+    "prompt": "does adding schema markup help my site get cited by AI?",
+    "run_at": "2026-09-02T09:13:47-07:00",
+    "day": "2026-09-02",
+    "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-09-02-Q3.json"
+  }
+}

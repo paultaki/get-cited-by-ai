@@ -1,5 +1,12 @@
 # Agent Notes
 
+## 2026-09-02 · beast (GEO vocab-floor score finalized)
+
+- **Did:** Closed multi-day ChatGPT scraper battery for `predictions/2026-07-16-paultakisaki-geo-hub-vocab-floor.md`. Outcome **HOLDS** (0/9 cited). Days: 2026-08-31, 2026-09-01, 2026-09-02. Raw cells under `data/vocab-floor-score-2026-08-31/`. Live-copy gate passed; instrument OK.
+- **Why:** Score-by date 2026-08-31; G6 requires ≥3 separate days (≥9 cells). Null preregistration of vocabulary-floor-only intervention.
+- **Next:** Ack loop until Paul replies `ack geo score`. Lever test remains separate.
+- **Watch out:** Do not loosen the band. REFUTED would still need confound check before crediting the vocab edit (G8/G5). HOLDS is evidence for floor-not-lever on this page only.
+
 ## 2026-09-01 · beast (GEO vocab-floor score day 2/3)
 
 - **Did:** Continued multi-day ChatGPT battery for

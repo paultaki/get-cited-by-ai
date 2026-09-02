@@ -1,0 +1,117 @@
+{
+  "request": {
+    "user_prompt": "what is answer engine optimization and how do I do it?",
+    "model_name": "gpt-5.5",
+    "web_search": true,
+    "web_search_country_iso_code": "US"
+  },
+  "response": {
+    "version": "0.1.20260902",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "33.6808 sec.",
+    "cost": 0.1155,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "09021613-1059-0612-0000-ab60bfd8641f",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "33.6733 sec.",
+        "cost": 0.1155,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "ai_optimization",
+          "chat_gpt",
+          "llm_responses",
+          "live"
+        ],
+        "data": {
+          "api": "ai_optimization",
+          "function": "llm_responses",
+          "se": "chat_gpt",
+          "user_prompt": "what is answer engine optimization and how do I do it?",
+          "model_name": "gpt-5.5",
+          "web_search": true,
+          "web_search_country_iso_code": "US"
+        },
+        "result": [
+          {
+            "model_name": "gpt-5.5-2026-04-23",
+            "input_tokens": 8692,
+            "output_tokens": 2048,
+            "reasoning_tokens": 74,
+            "web_search": true,
+            "money_spent": 0.1149,
+            "datetime": "2026-09-02 16:14:23 +00:00",
+            "items": [
+              {
+                "type": "reasoning",
+                "sections": [
+                  {
+                    "type": "summary_text",
+                    "text": "**Searching for current AEO info**\n\nI\u2019m thinking we can provide general information about AEO, but it might be valuable to find some current recommendations too. To do that, I should consider browsing the web for the latest updates. It\u2019s probably worth spending some time optimizing the search to get the most relevant and up-to-date information. So, I\u2019ll set up a web search. Let\u2019s see what I can find!"
+                  }
+                ]
+              },
+              {
+                "type": "message",
+                "sections": [
+                  {
+                    "type": "text",
+                    "text": "## What is Answer Engine Optimization (AEO)?\n\n**Answer Engine Optimization** is the practice of making your content easy for AI-powered search tools and \u201canswer engines\u201d to understand, trust, extract, and cite as a direct answer.\n\nTraditional SEO focuses on ranking web pages in search results. **AEO focuses on being the answer** in places like:\n\n- Google AI Overviews\n- Featured snippets\n- Bing Copilot\n- Perplexity\n- ChatGPT with web/search retrieval\n- Gemini\n- Voice assistants\n- \u201cPeople also ask\u201d style results\n\nAEO overlaps heavily with SEO, but the goal is slightly different: instead of only trying to get a blue-link ranking, you\u2019re trying to make your brand, page, product, or expertise the source an answer engine uses when responding to a user\u2019s question. Recent AEO guides generally define it as structuring content, entity data, and authority signals so AI systems can retrieve and cite your content in generated answers. ([aisearchvisibility.ai](https://www.aisearchvisibility.ai/answer-engine-optimization?utm_source=openai))\n\n---\n\n## The simple version\n\nIf SEO asks:\n\n> \u201cHow do I rank for this keyword?\u201d\n\nAEO asks:\n\n> \u201cWhen someone asks a question, how do I become the answer?\u201d\n\nExample:\n\nSearch query: **\u201cHow long does dental bonding last?\u201d**\n\nAn SEO-focused page might have a title like:\n\n> Dental Bonding Services in Austin | Smith Family Dental\n\nAn AEO-focused section would include:\n\n> **Dental bonding usually lasts 3 to 10 years**, depending on oral hygiene, bite pressure, diet, and whether the bonding is on a front or back tooth. Patients who avoid biting hard objects and keep regular dental cleanings often get the longest lifespan from bonding.\n\nThat answer is concise, factual, extractable, and then supported by context.\n\n---\n\n# How to do Answer Engine Optimization\n\n## 1. Identify the questions your audience asks\n\nStart by building a list of real questions, not just keywords.\n\nUse sources like:\n\n- Google autocomplete\n- People Also Ask\n- Reddit and forums\n- Sales calls\n- Customer service tickets\n- Chat logs\n- Internal site search\n- Competitor FAQ pages\n- Perplexity/ChatGPT-style queries\n- Keyword tools\n\nInstead of only targeting:\n\n> \u201cbest CRM software\u201d\n\nAlso target:\n\n> \u201cWhat is the best CRM for a 10-person sales team?\u201d  \n> \u201cIs HubSpot better than Salesforce for startups?\u201d  \n> \u201cHow much should a small business pay for CRM software?\u201d  \n> \u201cWhat features matter most in a CRM?\u201d\n\nAEO works best when you answer **specific, intent-rich questions**.\n\n---\n\n## 2. Put the direct answer near the top\n\nAnswer engines like content that is easy to extract. So don\u2019t bury the answer under a long introduction.\n\nUse this format:\n\n### Question-style heading\n\n> **How much does X cost?**\n\n### Short direct answer\n\n> X usually costs between $___ and $___, depending on ___, ___, and ___.\n\n### Then expand\n\nExplain the variables, examples, exceptions, and next steps.\n\nA good AEO structure is:\n\n1. **Direct answer**\n2. **Short explanation**\n3. **Evidence or examples**\n4. **Edge cases**\n5. **Related questions**\n6. **Clear next step**\n\n---\n\n## 3. Write in clear, extractable blocks\n\nAI systems and search engines often favor content that is well-structured.\n\nUse:\n\n- Short paragraphs\n- Descriptive headings\n- Bullet lists\n- Tables\n- Definitions\n- Step-by-step instructions\n- FAQs\n- Comparison sections\n- Pros and cons\n- \u201cBest for\u201d summaries\n- Clear dates when relevant\n\nBad:\n\n> There are many considerations when attempting to understand pricing in this sector, and businesses should assess multiple operational variables before reaching any definitive conclusion.\n\nBetter:\n\n> **Most small businesses pay $50 to $300 per month for basic accounting software.** The final cost depends on the number of users, payroll features, integrations, and support level.\n\n---\n\n## 4. Build pages around entities, not just keywords\n\nAnswer engines need to understand **who you are, what you offer, where you operate, and why you\u2019re credible**.\n\nMake your entity signals consistent across the web:\n\n- Business name\n- Founder names\n- Product names\n- Service categories\n- Location\n- Industry\n- Credentials\n- Awards\n- Reviews\n- Social profiles\n- Google Business Profile\n- LinkedIn\n- Crunchbase, G2, Capterra, Yelp, Healthgrades, Avvo, etc., depending on your industry\n\nFor example, if you run a law firm, your site should clearly associate:\n\n> Brand + attorneys + practice areas + city + credentials + case types + reviews\n\nAEO is not only about writing blog posts. It is also about helping answer engines understand your **brand/entity**.\n\n---\n\n## 5. Add structured data/schema\n\nSchema markup helps search engines interpret your content.\n\nUseful schema types include:\n\n- `Organization`\n- `LocalBusiness`\n- `Product`\n- `Service`\n- `FAQPage`\n- `HowTo`\n- `Article`\n- `Person`\n- `Review`\n- `AggregateRating`\n- `BreadcrumbList`\n- `WebPage`\n- `MedicalOrganization`, `LegalService`, etc., where relevant\n\nExample use cases:\n\n- A product page should include product schema.\n- A local business should include local business schema.\n- A how-to article should include how-to schema.\n- An FAQ section can use FAQ schema when appropriate.\n\nSchema will not magically make you appear in AI answers, but it improves machine readability.\n\n---\n\n## 6. Create answer-first content\n\nGood AEO content often includes sections like:\n\n- \u201cWhat is\u2026?\u201d\n- \u201cHow does\u2026 work?\u201d\n- \u201cHow much does\u2026 cost?\u201d\n- \u201cIs X worth it?\u201d\n- \u201cX vs. Y\u201d\n- \u201cBest X for Y\u201d\n- \u201cHow to choose\u2026\u201d\n- \u201cCommon mistakes\u201d\n- \u201cPros and cons\u201d\n- \u201cRequirements\u201d\n- \u201cAlternatives\u201d\n- \u201cExamples\u201d\n- \u201cChecklist\u201d\n- \u201cFAQ\u201d\n\nFor a cybersecurity company, that might mean pages like:\n\n- What is endpoint detection and response?\n- EDR vs. antivirus: what\u2019s the difference?\n- How much does managed detection and response cost?\n- Best cybersecurity tools for healthcare companies\n- How to prepare for a SOC 2 audit\n- What to do after a phishing attack\n\nEach page should answer one main question very clearly.\n\n---\n\n## 7. Demonstrate real expertise\n\nGeneric AI-written content is less likely to stand out. Add information that proves you know the subject.\n\nInclude:\n\n- Original research\n- First-party data\n- Screenshots\n- Case studies\n- Expert quotes\n- Author bios\n- Credentials\n- Methodology\n- Real examples\n- Benchmarks\n- Pricing data\n- Before/after results\n- Product testing notes\n- Customer stories\n\nFor example, instead of saying:\n\n> Email marketing improves retention.\n\nSay:\n\n> In our analysis of 42 ecommerce accounts, abandoned cart emails generated an average recovery rate of 8.4%, with the highest-performing flows using a three-email sequence over 72 hours.\n\nSpecificity builds trust.\n\n---\n\n## 8. Build topical authority\n\nAnswer engines are more likely to trust a site that covers a topic deeply.\n\nDo not create one isolated article. Build a content cluster.\n\nExample for a home remodeling company:\n\n**Main page:**\n\n- Kitchen remodeling in Denver\n\n**Supporting pages:**\n\n- How much does a kitchen remodel cost in Denver?\n- Best countertop materials for Colorado homes\n- Kitchen remodel timeline\n- Permits needed for kitchen remodeling in Denver\n- Cabinet refacing vs. cabinet replacement\n- Small kitchen remodel ideas\n- Questions to ask a kitchen remodeling contractor\n\nThen internally link them together.\n\nThis helps search and AI systems see that your site has depth around the subject.\n\n---\n\n## 9. Optimize for comparisons and recommendations\n\nMany answer-engine queries are decision-oriented:\n\n- \u201cBest X for Y\u201d\n- \u201cX vs Y\u201d\n- \u201cIs X better than Y?\u201d\n- \u201cWhat should I choose if\u2026?\u201d\n- \u201cTop alternatives to X\u201d\n- \u201cCheapest way to\u2026\u201d\n- \u201cMost reliable\u2026\u201d\n\nCreate content that helps users make decisions.\n\nUseful formats:\n\n| Query Type | Content Format |\n|---|---|\n| \u201cBest CRM for startups\u201d | Ranked comparison guide |\n| \u201cHubSpot vs Salesforce\u201d | Side-by-side comparison |\n| \u201cIs payroll outsourcing worth it?\u201d | Pros, cons, costs, scenarios |\n| \u201cHow to choose a contractor\u201d | Checklist |\n| \u201cWhat is the cheapest option?\u201d | Pricing breakdown |\n\nMake your recommendations transparent. Explain who each option is best for.\n\n---\n\n## 10. Get mentioned on trusted third-party sites\n\nAEO is not only about your own website. AI answer engines often rely on third-party validation.\n\nWork on getting your brand included in:\n\n- Industry publications\n- Review sites\n- Directories\n- Podcasts\n- News articles\n- \u201cBest of\u201d lists\n- Partner pages\n- Analyst reports\n- Association websites\n- Academic or government sources, if relevant\n- High-quality niche blogs\n\nFor SaaS, that might mean G2, Capterra, Product Hunt, GitHub, Reddit discussions, comparison sites, and industry newsletters.\n\nFor local businesses, that might mean Google reviews, Yelp, Angi, BBB, local chambers of commerce, neighborhood publications, and local news.\n\nAnswer engines are more likely to mention you if the broader web consistently associates you with a topic.\n\n",
+                    "annotations": [
+                      {
+                        "title": "Answer Engine Optimization (AEO): 2026 Definition & Playbook | AI Search Visibility",
+                        "url": "https://www.aisearchvisibility.ai/answer-engine-optimization?utm_source=openai",
+                        "start_index": 936,
+                        "end_index": 1041,
+                        "text": "([aisearchvisibility.ai](https://www.aisearchvisibility.ai/answer-engine-optimization?utm_source=openai))"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "fan_out_queries": [
+              "Answer Engine Optimization AEO definition best practices Google AI Overviews Bing ChatGPT 2026"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "parsed": {
+    "ok": true,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "cost": 0.1155,
+    "model": "gpt-5.5-2026-04-23",
+    "cited_paultakisaki": false,
+    "text_mentions_paultakisaki": false,
+    "domains": [
+      "aisearchvisibility.ai"
+    ],
+    "annotations": [
+      {
+        "title": "Answer Engine Optimization (AEO): 2026 Definition & Playbook | AI Search Visibility",
+        "url": "https://www.aisearchvisibility.ai/answer-engine-optimization?utm_source=openai"
+      }
+    ],
+    "answer_excerpt": "## What is Answer Engine Optimization (AEO)?\n\n**Answer Engine Optimization** is the practice of making your content easy for AI-powered search tools and \u201canswer engines\u201d to understand, trust, extract, and cite as a direct answer.\n\nTraditional SEO focuses on ranking web pages in search results. **AEO focuses on being the answer** in places like:\n\n- Google AI Overviews\n- Featured snippets\n- Bing Copilot\n- Perplexity\n- ChatGPT with web/search retrieval\n- Gemini\n- Voice assistants\n- \u201cPeople also ask\u201d style results\n\nAEO overlaps heavily with SEO, but the goal is slightly different: instead of only trying to get a blue-link ranking, you\u2019re trying to make your brand, page, product, or expertise the source an answer engine uses when responding to a user\u2019s question. Recent AEO guides generally define it as structuring content, entity data, and authority signals so AI systems can retrieve and cite your content in generated answers. ([aisearchvisibility.ai](https://www.aisearchvisibility.ai/answer-engine-optimization?utm_source=openai))\n\n---\n\n## The simple version\n\nIf SEO asks:\n\n> \u201cHow do I rank for this keyword?\u201d\n\nAEO asks:\n\n> \u201cWhen someone asks a question, how do I become the answer?\u201d\n\nExample:\n\nSearch query: **\u201cHow long does dental bonding last?\u201d**\n\nAn SEO-focused page might have a title like:\n\n> Dental Bonding Services in Austin | Smith Family Dental\n\nAn AEO-focused section would include:\n\n> **Dental bonding usually lasts 3 to 10 years**, depending on oral hygiene, bite pressure, di",
+    "answer_chars": 8841,
+    "request": {
+      "user_prompt": "what is answer engine optimization and how do I do it?",
+      "model_name": "gpt-5.5",
+      "web_search": true,
+      "web_search_country_iso_code": "US"
+    },
+    "tag": "S1",
+    "prompt": "what is answer engine optimization and how do I do it?",
+    "run_at": "2026-09-02T09:14:23-07:00",
+    "day": "2026-09-02",
+    "raw_path": "/Users/paul/Development/Sites/get-cited-by-ai/data/vocab-floor-score-2026-08-31/2026-09-02-S1.json"
+  }
+}
