@@ -2,8 +2,8 @@
 
 **Get cited by AI, or find out you can't.**
 
-I run seven sites. Bing has logged 50,000+ AI citations across them (50,072
-through August 5, 2026, still adding roughly nine hundred a day), and I compared
+I run seven sites. Bing has logged 100,000+ AI citations across them (102,133
+through September 9, 2026, still adding close to two thousand a day), and I compared
 the pages that get cited constantly against the hundreds that never get picked
 once. Most of the standard advice did not survive that comparison. My
 highest-citation page earned its first 5,000 citations with zero JSON-LD on
@@ -34,7 +34,7 @@ same-template controlled regression (observational, see RULEBOOK "Honest
 limits"), an 820K-citation vertical archive study (mortgage), and a
 registered-predictions ledger with scored outcomes. `RULEBOOK.md` holds the
 full rule set, evidence tags, and receipts. (The rules stay pinned to that
-frozen study corpus; the live counter, 50,000+ per the line up top, is a
+frozen study corpus; the live counter, 100,000+ per the line up top, is a
 growth update, not new evidence, until rules are re-scored. The daily series,
 weekly rollup, and site/page rollups are published as CSV in `data/`, with a
 claim-to-file map in `data/README.md`.)

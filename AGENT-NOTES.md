@@ -1,5 +1,27 @@
 # Agent Notes
 
+## 2026-09-11 · claude-code (100K milestone + prediction ledger status)
+
+- **Did:** README state line and RULEBOOK corpus-status → 100,000+ (102,133 through
+  2026-09-09, close to two thousand a day). Data pack regenerated through 9/09 (daily 236
+  rows, weekly 35 with the 3-day partial, `site-rollup-2026-09-09.csv`); `page-rollup-
+  2026-08-05.csv` deliberately retained with a README caveat (Bing page sample not
+  re-pulled in the pipeline since then). Prediction ledger, append-only: credibilityos
+  #1 scored **HOLDS** (7 lifetime citations; mean/day < 10 under any window); dated
+  status notes on credibilityos #2/#3, the F2 Bing-inverse re-probe, and all four TFL
+  bets — every one of those is UNSCORED because the instrument was never run after
+  2026-07-19 (no chat-engine probe wave, no DataForSEO mentions/AIO pull, grounding-query
+  pull frozen). Not hits, not misses. Bands untouched.
+- **Why:** Paul asked whether the studies and registered predictions still hold at the
+  100K milestone. Memo: `~/Documents/Research/AI Citation Update 2026-09-11/`.
+- **Next:** Re-window the TFL and F2 bets only after (a) mia's grounding-query pull
+  resumes, (b) a DataForSEO mentions/AIO budget exists, (c) a probe battery is scheduled
+  — and per rule 5 register the new window BEFORE reading the data.
+- **Watch out:** Disclosure boundary applies to prose in this public repo, not just data
+  files: a review caught per-site daily counts and a grounding-query share in my first
+  draft of the notes; both removed. Per-site daily series and grounding queries never
+  appear here in any form.
+
 ## 2026-09-02 · beast (GEO vocab-floor score finalized)
 
 - **Did:** Closed multi-day ChatGPT scraper battery for `predictions/2026-07-16-paultakisaki-geo-hub-vocab-floor.md`. Outcome **HOLDS** (0/9 cited). Days: 2026-08-31, 2026-09-01, 2026-09-02. Raw cells under `data/vocab-floor-score-2026-08-31/`. Live-copy gate passed; instrument OK.

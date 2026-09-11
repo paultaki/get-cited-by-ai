@@ -16,3 +16,6 @@
   rule. Any operational band (e.g. overlap thresholds) must be fixed and committed
   here BEFORE the re-probe data is pulled — never after.
 - **Outcome:** UNSCORED
+
+- **Status 2026-09-11 (claude-code):** no chat-engine re-probe wave or mention-corpus pull for meritplaybook.com has been executed since registration (searched `~/Documents/Research`, the MeritPlaybook, TheFinalsLoadout, and CredibilityOS repos for any ChatGPT/Perplexity probe or DataForSEO LLM-mentions artifact dated after 2026-07-19: none found; the last DataForSEO pull is 2026-07-14). The "~August 2026" score-by passed without a read. Outcome remains **UNSCORED**, not a miss. Rule 5 still binds: an operational band (overlap threshold) must be committed here BEFORE the re-probe data is pulled. Context only, not evidence for this claim: on the Bing counter meritplaybook.com is now the portfolio's largest site (55,344 lifetime through 2026-09-09).
+
