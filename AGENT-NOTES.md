@@ -1,5 +1,12 @@
 # Agent Notes
 
+## 2026-10-05 · claude-code (150K milestone refresh)
+
+- **Did:** README state line and RULEBOOK corpus-status → 150,000+ (155,286 through 2026-10-03, more than two thousand a day, September 65,632 record month, WoW −6.6%). Data pack regenerated through 10/03 (daily 260 rows, weekly 38 with the 6-day partial, `site-rollup-2026-10-03.csv`); page rollup retained at 2026-08-05. README states the client site sharing the pipeline is excluded from every total.
+- **Why:** Monthly stats refresh; 150K crossed 2026-10-01 (10K milestone rule).
+- **Next:** November refresh. Predictions untouched (no new scoring instruments ran).
+- **Watch out:** CSVs must stay byte-identical with paultakisaki.com `insights/ai-seo-statistics/data/`.
+
 ## 2026-09-11 · claude-code (100K milestone + prediction ledger status)
 
 - **Did:** README state line and RULEBOOK corpus-status → 100,000+ (102,133 through
