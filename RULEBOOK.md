@@ -16,10 +16,10 @@ independent reviewers before release (see Methods); the sanitization audit passe
 with the author's disclosure decisions applied. Rules are re-scored as the
 underlying dataset grows; see the prediction ledger (G1) for what's still open.**
 
-**Corpus status, 2026-10-05:** the live portfolio has since passed **150,000
-Bing-reported AI citations** (155,286 through 2026-10-03, seven tracked sites;
-August 2026 closed at 38,195; September at 65,632, the biggest month on
-record; the seven days through 2026-10-03 ran −6.6% on the prior seven). Rules remain pinned to the frozen 2026-07-13 study
+**Corpus status, 2026-11-03:** the live portfolio has since passed **260,000
+Bing-reported AI citations** (260,771 through 2026-11-01, six tracked sites;
+September 2026 closed at 65,632; October at 108,472, the biggest month on
+record; the seven days through 2026-11-01 ran −33.6% on the record week before). Rules remain pinned to the frozen 2026-07-13 study
 corpus above until formally re-scored; the newer data is a growth update, not
 new evidence for any rule.
 
