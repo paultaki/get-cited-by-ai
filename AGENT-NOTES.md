@@ -1,5 +1,12 @@
 # Agent Notes
 
+## 2026-11-03 · claude-code (260K milestone refresh)
+
+- **Did:** README state line and RULEBOOK corpus-status → 260,000+ (260,771 through 2026-11-01, more than three thousand a day, October 108,472 record month, WoW −33.6% off the record week). Data pack regenerated through 11/01 (daily 289 rows, weekly 42 with no trailing partial, `site-rollup-2026-11-01.csv`, six sites); page rollup stays pinned to 8/05. data/README adds the roster restatement (CredibilityOS left, up to −7) and the K-rounding precision caveat.
+- **Why:** Monthly stats refresh; 260K crossed 2026-11-01 (10K milestone rule).
+- **Next:** December refresh. Predictions untouched (no new scoring instruments ran).
+- **Watch out:** CSVs must stay byte-identical with paultakisaki.com `insights/ai-seo-statistics/data/`. README's "I run seven sites" was left as an identity line; the data series is six sites.
+
 ## 2026-10-05 · claude-code (150K milestone refresh)
 
 - **Did:** README state line and RULEBOOK corpus-status → 150,000+ (155,286 through 2026-10-03, more than two thousand a day, September 65,632 record month, WoW −6.6%). Data pack regenerated through 10/03 (daily 260 rows, weekly 38 with the 6-day partial, `site-rollup-2026-10-03.csv`); page rollup retained at 2026-08-05. README states the client site sharing the pipeline is excluded from every total.
