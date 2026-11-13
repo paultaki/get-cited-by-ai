@@ -77,6 +77,19 @@ claim you want to make, label it SPECULATION or drop it.
 - You promised citations from any intervention ("this will get you cited")
 - The user's niche looks memory-answerable and you haven't said so
 
+## Measurement discipline (carried over from CredibilityOS, shut down 2026-10-16)
+
+- **One AI-engine answer is never evidence.** Presence claims ("we are cited for X",
+  "the engine names us") need n≥7 runs with a bootstrap confidence interval.
+  Fewer runs: label the observation ASSUMPTION at best. G6's ≥3 re-runs is the floor
+  for spotting weather; 7+ is the bar for stating a fact.
+- **Paid runs:** set and state the dollar cap BEFORE the run, then record
+  "$X actual (cap $Y)" after. Never reconstruct a cap afterwards.
+- **Re-buying data you own is a bug.** Before any metered run, look for an existing
+  artifact that already answers the question.
+- **Indexing truth is Google Search Console.** A web-search `site:` probe is not;
+  those proxies have been wrong before.
+
 ## Free path first
 
 Default instruments cost nothing: Bing Webmaster Tools AI Performance exports,
